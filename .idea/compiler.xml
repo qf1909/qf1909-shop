@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shop-entity" />
-        <module name="qf1909-shop-web" />
-        <module name="eureka-server" />
-        <module name="shop-basic" />
-        <module name="shop-login" />
-        <module name="qf1909-shop-service" />
-        <module name="shop-index" />
-        <module name="user-provider" />
-        <module name="shop-cart" />
+        <module name="shop-order" />
+        <module name="qf1909-shop-server" />
         <module name="shop-search" />
+        <module name="shop-pay" />
+        <module name="shop-entity" />
+        <module name="user-provider" />
         <module name="shop-product" />
         <module name="shop-mapper" />
-        <module name="qf1909-shop-server" />
+        <module name="qf1909-shop-web" />
+        <module name="eureka-server" />
+        <module name="shop-login" />
+        <module name="shop-cart" />
+        <module name="qf1909-shop-service" />
+        <module name="shop-basic" />
+        <module name="shop-index" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +35,8 @@
       <module name="shop-index" target="1.8" />
       <module name="shop-login" target="1.8" />
       <module name="shop-mapper" target="1.5" />
+      <module name="shop-order" target="1.8" />
+      <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-search" target="1.8" />
       <module name="user-provider" target="1.8" />
@@ -44,6 +48,8 @@
       <module name="shop-cart" options="-parameters" />
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
+      <module name="shop-order" options="-parameters" />
+      <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-search" options="-parameters" />
       <module name="user-provider" options="-parameters" />
