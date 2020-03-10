@@ -1,10 +1,10 @@
 
 spring:
   application:
-    name: qf1909-user-admin
+    name: user-server
 
 server:
-  port: 8765
+  port: 8762
 
 eureka:
   client:
