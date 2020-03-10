@@ -16,33 +16,35 @@ rabbitmq:
     username: rabbit
     password: 123456
     virtual-host: qf1909
-  
-    
+
+
 redis
  47.105.34.102
  6379
  password
- 
- 
+
+
  前端
+
  
- 
- 
+
  后台：
  web：
  login： 9083
+
+shop-search-web：8054
+
  
- 
- 
- 
+
  service：
- 
+
+shop-search-service:8053
+
  eureka-server   8761
  user-server     8762
+
  
+
  
- 
- 
- 
- 
+
  

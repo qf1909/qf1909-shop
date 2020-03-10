@@ -86,8 +86,6 @@ public class ResultBean {
 
     }
 
-
-
     /**
      * 返回成功的结果
      * @param message 具体的信息
@@ -101,10 +99,6 @@ public class ResultBean {
         return  resultBean;
 
     }
-
-
-
-
 
     public int getErrno() {
         return errno;

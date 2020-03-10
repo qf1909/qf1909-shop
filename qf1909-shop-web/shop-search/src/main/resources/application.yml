@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: shop-search-web
+server:
+  port: 8054
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

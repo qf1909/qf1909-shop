@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/shop-pay.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-pay/shop-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-product/shop-product.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-product/shop-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/shop-search-service/shop-search-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/shop-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" />
     </modules>
   </component>
