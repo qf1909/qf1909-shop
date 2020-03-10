@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qf1909-shop.iml" filepath="$PROJECT_DIR$/.idea/qf1909-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/qf1909-shop-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/qf1909-shop-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/qf1909-shop-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/qf1909-shop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/qf1909-shop-web.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/qf1909-shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-cart/shop-cart.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/shop-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/shop-entity.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/shop-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/shop-index.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-index/shop-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/shop-login.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-login/shop-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/shop-mapper.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/shop-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-product/shop-product.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-product/shop-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" />
+    </modules>
+  </component>
+</project>
