@@ -229,7 +229,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -244,7 +244,7 @@
       <workItem from="1583765570712" duration="2911000" />
       <workItem from="1583810200178" duration="3559000" />
       <workItem from="1583830336724" duration="3002000" />
-      <workItem from="1583833801790" duration="12012000" />
+      <workItem from="1583833801790" duration="12585000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
