@@ -35,7 +35,9 @@ redis
  service：
  
  eureka-server   8761
+ 
  user-server     8762
+ 
  product-search-service    9085
  
  
