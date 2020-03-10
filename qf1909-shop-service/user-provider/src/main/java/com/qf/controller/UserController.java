@@ -1,6 +1,8 @@
 package com.qf.controller;
 
 
+import com.qf.bean.ResultBean;
+import com.qf.service.IUserService;
 import com.qf.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,13 +17,15 @@ public class UserController {
     private String serverPort;
 
     @Autowired
-    private UserServiceImpl userService;
+    private IUserService userService;
 
-    @RequestMapping("hi")
+    @RequestMapping("loginCheck")
     @ResponseBody
-    public String hello(String message) {
+    public ResultBean loginCheck(String username,String password) {
 
-        return null;
+        ResultBean resultBean = userService.checkLogin(username, password);
+
+        return resultBean;
     }
 
 
