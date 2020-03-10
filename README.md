@@ -29,8 +29,13 @@ redis
  
  
  后台：
+ 
  web：
+ 
  login： 9083
+ 
+ 
+ 
  
  service：
  
@@ -38,7 +43,7 @@ redis
  
  user-server     8762
  
- product-search-service    9085
+ product-search-service    8763
  
  
  
