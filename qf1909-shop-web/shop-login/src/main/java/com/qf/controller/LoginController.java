@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
+@RequestMapping("user")
 public class LoginController {
 
     @GetMapping("/login")
