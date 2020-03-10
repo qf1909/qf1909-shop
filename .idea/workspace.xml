@@ -1,61 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
+    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="smj-search-!!!">
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/dto/TProductSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/TUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/search/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/ShopSearchServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/test/java/com/qf/ShopSearchServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo/FuckWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo/HelloWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/qf/demo/DemoApplicationTests.java" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-common/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-service/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-server/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-server/eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-index/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-login/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-search/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-product/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-cart/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-service/user-provider/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-pay/target/" />
-    <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,161 +77,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-<<<<<<< Updated upstream
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-=======
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/ShopOrderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/MyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
->>>>>>> Stashed changes
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< Updated upstream
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-=======
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="21" />
->>>>>>> Stashed changes
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< Updated upstream
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-=======
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
->>>>>>> Stashed changes
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> Stashed changes
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="mybatis.mapper" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="mybatis mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -266,71 +100,19 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/qf1909-shop-common/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-server/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-server/eureka-server/src/main/java/com/qf/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/java/com/qf/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RabbitConstant.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductType.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductDesc.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TUser.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/ResultBean.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IuserService.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.java" />
-<<<<<<< Updated upstream
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" />
-=======
->>>>>>> Stashed changes
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/qf1909-shop-server/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderInfoController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" />
-<<<<<<< Updated upstream
-=======
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/css/demo.css" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/order.html" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/MySERVICE.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/MyService.java" />
->>>>>>> Stashed changes
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\千峰武汉\寒假资料\商城项目\git代码\qf1909-shop\.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\program\maven\.m2\repository" />
-        <option name="mavenHome" value="D:/Program Files/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="localRepository" value="G:\MavenWarehouse" />
+        <option name="mavenHome" value="F:/websoft/maven3.5.0/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="F:\websoft\maven3.5.0\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -339,136 +121,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-<<<<<<< Updated upstream
-  <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="33" />
-    <option name="width" value="1537" />
-    <option name="height" value="945" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="377" />
-    <option name="y" value="56" />
-    <option name="width" value="1495" />
-    <option name="height" value="985" />
->>>>>>> Stashed changes
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Yvk9mQYotkr3WujiQaChVJJIL8" />
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -476,10 +129,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -491,6 +144,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -502,14 +160,25 @@
       </list>
     </option>
   </component>
-<<<<<<< Updated upstream
-  <component name="RunManager" selected="Spring Boot.ShopOrderApplication">
-=======
-  <component name="RunManager" selected="Spring Boot.ShopLoginApplication">
->>>>>>> Stashed changes
+  <component name="RunManager" selected="Spring Boot.ShopSearchApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -570,9 +239,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ShopCartApplication" />
+      <item itemvalue="Spring Boot.ShopIndexApplication" />
+      <item itemvalue="Spring Boot.ShopLoginApplication" />
+      <item itemvalue="Spring Boot.ShopOrderApplication" />
+      <item itemvalue="Spring Boot.ShopPayApplication" />
+      <item itemvalue="Spring Boot.ShopProductApplication" />
+      <item itemvalue="Spring Boot.ShopSearchApplication" />
+      <item itemvalue="Spring Boot.UserProviderApplication" />
+      <item itemvalue="Spring Boot.ProductSearchApplication" />
+      <item itemvalue="Spring Boot.ProductSearchServiceApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -586,10 +278,8 @@
       <workItem from="1583746297979" duration="11972000" />
       <workItem from="1583765570712" duration="2911000" />
       <workItem from="1583810200178" duration="3559000" />
-<<<<<<< Updated upstream
-=======
-      <workItem from="1583843462235" duration="5832000" />
->>>>>>> Stashed changes
+      <workItem from="1583830336724" duration="3002000" />
+      <workItem from="1583833801790" duration="12585000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
@@ -668,78 +358,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583812602624</updated>
     </task>
-<<<<<<< Updated upstream
-    <option name="localTasksCounter" value="12" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26396000" />
-=======
-    <task id="LOCAL-00012" summary="框架">
-      <created>1583826320750</created>
+    <task id="LOCAL-00012" summary="smj-product-search-service">
+      <created>1583848394309</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1583826320750</updated>
+      <updated>1583848394310</updated>
     </task>
-    <task id="LOCAL-00013" summary="hx">
-      <created>1583846322889</created>
+    <task id="LOCAL-00013" summary="smj-product-search-service">
+      <created>1583848589108</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1583846322889</updated>
+      <updated>1583848589108</updated>
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42391000" />
-  </component>
-  <component name="TodoView" selected-index="4">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
->>>>>>> Stashed changes
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="162" y="27" width="1229" height="756" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34500426" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36858973" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3555241" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
->>>>>>> Stashed changes
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.10040161" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32719547" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3292683" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24956064" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3292683" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32877883" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -760,20 +394,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -797,481 +418,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first construction" />
     <MESSAGE value="框架" />
-    <MESSAGE value="hx" />
-    <option name="LAST_COMMIT_MESSAGE" value="hx" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="smj-product-search-service" />
+    <MESSAGE value="smj-search-!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="smj-search-!!!" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/resources/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/java/com/qf/ShopProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> Stashed changes
-    <entry file="file://D:/Program Files/apache-maven-3.5.0/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/config.java" />
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RabbitConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5425b79-f6b7-4d91-a48f-99352837dade/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IuserService.java">
-=======
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IUserService.java">
->>>>>>> Stashed changes
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/ResultBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2418#2419#0" expanded="true" />
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2494#2495#0" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/java/com/qf/ShopIndexApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/static.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/static/adress/address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/static/css/jsstyle.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/templates/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1900">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/static/css/orstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/orderinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java">
-=======
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/static/AmazeUI-2.4.2/assets/js/amazeui.js">
->>>>>>> Stashed changes
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-=======
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5339">
-          <caret line="281" column="78" selection-start-line="281" selection-start-column="78" selection-end-line="281" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/ShopOrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-=======
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
->>>>>>> Stashed changes
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-=======
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
->>>>>>> Stashed changes
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-=======
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

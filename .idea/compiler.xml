@@ -6,25 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shop-order" />
-        <module name="qf1909-shop-server" />
-        <module name="shop-search" />
+        <module name="product-search-service" />
         <module name="shop-pay" />
+        <module name="shop-login" />
+        <module name="qf1909-shop-server" />
+        <module name="shop-order" />
         <module name="shop-entity" />
         <module name="user-provider" />
         <module name="shop-product" />
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="shop-login" />
+        <module name="shop-basic" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
-        <module name="shop-basic" />
+        <module name="shop-search" />
         <module name="shop-index" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="product-search" target="1.8" />
+      <module name="product-search-service" target="1.8" />
       <module name="qf1909-shop-common" target="1.5" />
       <module name="qf1909-shop-server" target="1.5" />
       <module name="qf1909-shop-service" target="1.5" />
@@ -45,6 +48,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="product-search" options="-parameters" />
+      <module name="product-search-service" options="-parameters" />
       <module name="shop-cart" options="-parameters" />
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
