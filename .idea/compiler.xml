@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-search-service" />
         <module name="shop-pay" />
+        <module name="shop-login" />
         <module name="qf1909-shop-server" />
         <module name="shop-order" />
         <module name="shop-entity" />
@@ -21,7 +22,6 @@
         <module name="qf1909-shop-service" />
         <module name="shop-search" />
         <module name="shop-index" />
-        <module name="shop-login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

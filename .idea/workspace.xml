@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="" />
+    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="smj-search-!!!">
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/dto/TProductSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/TUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/search/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/ShopSearchServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/java/com/qf/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/test/java/com/qf/ShopSearchServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,7 +419,8 @@
     <MESSAGE value="first construction" />
     <MESSAGE value="框架" />
     <MESSAGE value="smj-product-search-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="smj-product-search-service" />
+    <MESSAGE value="smj-search-!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="smj-search-!!!" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
