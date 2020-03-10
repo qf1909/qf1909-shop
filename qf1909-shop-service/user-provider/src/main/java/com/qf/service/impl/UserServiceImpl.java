@@ -5,14 +5,14 @@ package com.qf.service.impl;
 import com.qf.bean.ResultBean;
 import com.qf.entity.TUser;
 import com.qf.mapper.TUserMapper;
-import com.qf.service.IuserService;
+import com.qf.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
 @Component
-public class UserServiceImpl implements IuserService {
+public class UserServiceImpl implements IUserService {
 
     @Autowired
     private TUserMapper userMapper;
