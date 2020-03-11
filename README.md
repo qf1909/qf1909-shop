@@ -34,6 +34,8 @@ redis
  
  login： 9083
  
+ product-search-web:  9084
+ 
  
  
  
