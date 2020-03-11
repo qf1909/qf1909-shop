@@ -1,9 +1,8 @@
-package com.qf.service.impl;
+package com.qf.service;
 
 import com.qf.bean.ResultBean;
 import com.qf.bean.TProductSearchDTO;
 import com.qf.mapper.TProductSearchDTOMapper;
-import com.qf.service.ISearchService;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;

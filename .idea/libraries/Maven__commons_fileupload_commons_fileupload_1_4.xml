@@ -1,6 +1,15 @@
 <component name="libraryTable">
   <library name="Maven: commons-fileupload:commons-fileupload:1.4">
     <CLASSES>
+<<<<<<< HEAD
+      <root url="jar://G:/MavenWarehouse/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://G:/MavenWarehouse/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://G:/MavenWarehouse/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-sources.jar!/" />
+=======
       <root url="jar://D:/program/maven/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +17,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/program/maven/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-sources.jar!/" />
+>>>>>>> origin/master
     </SOURCES>
   </library>
 </component>

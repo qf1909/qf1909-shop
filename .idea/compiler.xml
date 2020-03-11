@@ -22,12 +22,14 @@
         <module name="qf1909-shop-service" />
         <module name="shop-search" />
         <module name="shop-index" />
+        <module name="product-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="product-search" target="1.8" />
       <module name="product-search-service" target="1.8" />
+      <module name="product-search-web" target="1.8" />
       <module name="qf1909-shop-common" target="1.5" />
       <module name="qf1909-shop-server" target="1.5" />
       <module name="qf1909-shop-service" target="1.5" />
@@ -50,6 +52,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="product-search" options="-parameters" />
       <module name="product-search-service" options="-parameters" />
+      <module name="product-search-web" options="-parameters" />
       <module name="shop-cart" options="-parameters" />
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
