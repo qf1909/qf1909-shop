@@ -24,11 +24,8 @@ rabbitmq:
   
     
 redis:
-
  47.105.34.102
- 
  6379
- 
  password
  
  
