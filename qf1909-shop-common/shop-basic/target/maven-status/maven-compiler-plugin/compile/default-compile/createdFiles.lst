@@ -1,0 +1,4 @@
+com\qf\bean\ResultBean.class
+com\qf\constant\RabbitConstant.class
+com\qf\dto\ProductSearchDTO.class
+com\qf\vo\SearchVO.class

@@ -5,7 +5,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<base href="http://admin.qf.com/">
+<!--		<base href="http://admin.qf.com/">-->
+		<base href="/">
 		<title>搜索页面</title>
 
 		<link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
@@ -41,7 +42,8 @@
 				<div class="topMessage mini-cart">
 					<div class="menu-hd"><a id="mc-menu-hd" href="#" target="_top"><i class="am-icon-shopping-cart  am-icon-fw"></i><span>购物车</span><strong id="J_MiniCartNum" class="h">0</strong></a></div>
 				</div>
-				<div class="topMessage favorite">
+				<
+			</ul> class="topMessage favorite">
 					<div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
 			</ul>
 			</div>
@@ -56,7 +58,7 @@
 
 				<div class="search-bar pr">
 					<a name="index_none_header_sysc" href="#"></a>
-					<form action="/search">
+					<form action="/search/query">
 						<input id="searchInput" name="keyword" type="text" placeholder="搜索" autocomplete="off">
 						<input id="ai-topsearch" class="submit am-btn"  value="搜索" index="1" type="submit">
 					</form>
@@ -161,27 +163,24 @@
 									<li class="big"><a title="评价" href="#">评价为主</a></li>
 								</div>
 								<div class="clear"></div>
-
-								<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes">
-
-									<li th:onclick="|intoProductInfo(${pro.id})|" th:each="pro : ${products}">
+								<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes" >
+									<li th:onclick="|intoProductInfo(${pro.id})|" th:each="pro:${productList}"   >
 										<div class="i-pic limit">
-											<img th:src="${pro.tProductPimage}" />
-											<p class="title fl"><span th:utext="${pro.tProductName}"></span></p>
+											<img th:src="${pro.TProductPimage}" />
+											<p class="title fl"><span th:utext="${pro.TProductName}"></span></p>
 											<p class="price fl">
 												<b>¥</b>
-												<strong><span th:text="${pro.tProductSalePrice}"></span></strong>
+												<strong><span th:text="${pro.TProductSalePrice}"></span></strong>
 											</p>
 											<p class="number fl">
 												销量<span>1110</span>
 											</p>
 										</div>
 									</li>
-
 								</ul>
 							</div>
-							<div class="search-side">
 
+							<div class="search-side">
 								<div class="side-title">
 									经典搭配
 								</div>
@@ -229,14 +228,10 @@
 							</div>
 							<div class="clear"></div>
 							<!--分页 -->
-							<ul class="am-pagination am-pagination-right">
-								<li class="am-disabled"><a href="#">&laquo;</a></li>
-								<li class="am-active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&raquo;</a></li>
+							<ul class="am-pagination am-pagination-right" >
+								<li th:if="${pageNo gt 1}"><a th:href="@{${url}(keyworrd=${keyword},page=${pageNo}-1)}">&laquo;</a></li>
+								<li class="am-active" th:each="i:${#numbers.sequence(1, pageNum)}"><a th:href="@{${url}(keyworrd=${keyword},page=${i})}" th:text="${i}"></a></li>
+								<li><a th:href="@{${url}(keyworrd=${keyword},page=${pageNo}+1)}">&raquo;</a></li>
 							</ul>
 
 						</div>
@@ -442,7 +437,6 @@
 <div class="theme-popover-mask"></div>
 	<script src="js/jquery.js"></script>
 	<script>
-
 		function intoProductInfo(id){
 			location.href="http://admin.qf.com/"+id+".html";
 		}

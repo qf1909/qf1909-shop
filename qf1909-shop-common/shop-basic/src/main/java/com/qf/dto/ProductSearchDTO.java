@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class TProductSearchDTO implements Serializable {
+public class ProductSearchDTO implements Serializable {
 
     private  Long  id;
     private  String  tProductName;
