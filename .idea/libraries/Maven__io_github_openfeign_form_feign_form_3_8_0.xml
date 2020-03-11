@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: io.github.openfeign.form:feign-form:3.8.0">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://G:/MavenWarehouse/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://G:/MavenWarehouse/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0-sources.jar!/" />
+=======
+      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0-sources.jar!/" />
+>>>>>>> origin/master
     </SOURCES>
   </library>
 </component>
