@@ -11,17 +11,28 @@ root
 
 
 rabbitmq:
+
     host: 47.105.34.102
+    
     port: 5672
+    
     username: rabbit
+    
     password: 123456
+    
     virtual-host: qf1909
   
     
-redis
+redis:
+
  47.105.34.102
+ 
  6379
+ 
  password
+ 
+ 
+Solr:8983
  
  
  前端
