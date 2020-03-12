@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-search-service" />
         <module name="shop-pay" />
-        <module name="shop-login" />
         <module name="qf1909-shop-server" />
         <module name="shop-order" />
         <module name="shop-entity" />
         <module name="user-provider" />
+        <module name="shop-sso" />
         <module name="shop-product" />
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
@@ -44,6 +44,7 @@
       <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-search" target="1.8" />
+      <module name="shop-sso" target="1.8" />
       <module name="user-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -60,6 +61,7 @@
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-search" options="-parameters" />
+      <module name="shop-sso" options="-parameters" />
       <module name="user-provider" options="-parameters" />
     </option>
   </component>

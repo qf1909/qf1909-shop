@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/qf1909-shop-server/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-server/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-index/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-search/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-product/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-cart/pom.xml" />
@@ -21,6 +20,7 @@
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/product-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/product-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/pom.xml" />
       </list>
     </option>
   </component>

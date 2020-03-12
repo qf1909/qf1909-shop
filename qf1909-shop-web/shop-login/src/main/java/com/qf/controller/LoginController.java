@@ -24,9 +24,9 @@ public class LoginController {
     }
 
 
-    @RequestMapping("/checkLogin")
+    @RequestMapping("/loginCheck")
     @ResponseBody
-    public String login(String username, String password, HttpServletResponse response){
+    public String checkLogin(String username, String password, HttpServletResponse response){
 
         ResultBean resultBean = service.loginCheck(username, password);
         System.out.println(resultBean);
@@ -35,5 +35,15 @@ public class LoginController {
 
     }
 
+    @RequestMapping("/checkIsLogin")
+    @ResponseBody
+    public String checkIsLogin(String username, String password){
+
+        ResultBean resultBean = service.loginCheck(username, password);
+        System.out.println(resultBean);
+
+        return null;
+
+    }
 
 }

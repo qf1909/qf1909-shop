@@ -8,9 +8,9 @@ import com.qf.mapper.TUserMapper;
 import com.qf.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
-@Service
+
+
 @Component
 public class UserServiceImpl implements IUserService {
 
@@ -21,7 +21,7 @@ public class UserServiceImpl implements IUserService {
      * 登录检验
      */
     @Override
-    public ResultBean checkLogin(String username, String password) {
+    public ResultBean loginCheck(String username, String password) {
         TUser user = userMapper.selectByUsername(username);
         if (user != null){
             if (!password.equals("")  &&  !user.getPassword().equals("")  &&  user.getPassword().equals(password)){
@@ -31,7 +31,4 @@ public class UserServiceImpl implements IUserService {
         }
         return ResultBean.error("用户名或密码错误");
     }
-
-
-
 }

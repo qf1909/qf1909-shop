@@ -17,9 +17,16 @@
     </resultMap>
 
     <select id="selectByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
-        select
-        <include refid="Base_Column_List" />
+        select *
         from t_user
         where uname = #{username,jdbcType=VARCHAR} or phone = #{username,jdbcType=VARCHAR} or email = #{username,jdbcType=VARCHAR}
     </select>
+
+    <insert id="insert" parameterType="com.qf.entity.TUser">
+    insert into t_user (id, uname, password
+    )
+    values (#{id,jdbcType=BIGINT}, #{uname,jdbcType=VARCHAR}, #{password,jdbcType=CHAR}
+    )
+    </insert>
+
 </mapper>
