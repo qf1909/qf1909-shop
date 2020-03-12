@@ -12,4 +12,5 @@ public interface MyService {
     @RequestMapping("loginCheck")
     ResultBean loginCheck(@RequestParam("username")String username,@RequestParam("password") String password);
 
+
 }

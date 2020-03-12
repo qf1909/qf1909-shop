@@ -17,8 +17,7 @@
     </resultMap>
 
     <select id="selectByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
-        select
-        <include refid="Base_Column_List" />
+        select *
         from t_user
         where uname = #{username,jdbcType=VARCHAR} or phone = #{username,jdbcType=VARCHAR} or email = #{username,jdbcType=VARCHAR}
     </select>
