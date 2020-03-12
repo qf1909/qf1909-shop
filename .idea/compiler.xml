@@ -8,20 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="shop-search-service" />
         <module name="shop-pay" />
+        <module name="shop-login" />
         <module name="qf1909-shop-server" />
         <module name="shop-order" />
         <module name="shop-entity" />
+        <module name="shop-register-service" />
         <module name="user-provider" />
+        <module name="shop-register-send-email-service" />
         <module name="shop-product" />
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
         <module name="shop-basic" />
         <module name="shop-cart" />
+        <module name="shop-register-send-code-service" />
         <module name="qf1909-shop-service" />
         <module name="shop-search" />
         <module name="shop-index" />
-        <module name="shop-login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +42,9 @@
       <module name="shop-order" target="1.8" />
       <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
+      <module name="shop-register-send-code-service" target="1.8" />
+      <module name="shop-register-send-email-service" target="1.8" />
+      <module name="shop-register-service" target="1.8" />
       <module name="shop-search" target="1.8" />
       <module name="shop-search-service" target="1.8" />
       <module name="user-provider" target="1.8" />
@@ -53,6 +59,9 @@
       <module name="shop-order" options="-parameters" />
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
+      <module name="shop-register-send-code-service" options="-parameters" />
+      <module name="shop-register-send-email-service" options="-parameters" />
+      <module name="shop-register-service" options="-parameters" />
       <module name="shop-search" options="-parameters" />
       <module name="shop-search-service" options="-parameters" />
       <module name="user-provider" options="-parameters" />

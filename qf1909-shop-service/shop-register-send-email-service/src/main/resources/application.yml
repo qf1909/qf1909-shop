@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: shop-register-send-email-service
+  rabbitmq:
+    virtual-host: qf1909
+    port: 5672
+    username: rabbit
+    password: 123456
+    host: 47.105.34.102
+  redis:
+    host: 47.105.34.102
+    port: 6379
+    password: password
+  mail:
+    host: smtp.qq.com
+    username: 214490523@qq.com
+    password: onmhhhhovdwbbhhd
+    default-encoding: utf-8
+server:
+  port: 8057
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+

@@ -1,7 +1,5 @@
-
 server:
   port: 9083
-
 
 spring:
   redis:
@@ -17,3 +15,11 @@ spring:
     username: rabbit
     password: 123456
     virtual-host: qf1909
+  application:
+    name: shop-login
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+

@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: shop-register-send-code-service
+  rabbitmq:
+    virtual-host: qf1909
+    port: 5672
+    username: rabbit
+    password: 123456
+    host: 47.105.34.102
+  redis:
+    host: 47.105.34.102
+    port: 6379
+    password: password
+  datasource:
+    url: jdbc:mysql://47.105.34.102/qf-v6
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 8055
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+sms:
+  account: JSM42639
+  password: l43d7myq
+  veryCode: irnsloy2kjhd
+  http_url: http://112.74.76.186:8030
+  tplId: JSM42639-0001
+

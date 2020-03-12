@@ -1,0 +1,31 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  application:
+    name: shop-register-service
+  rabbitmq:
+    virtual-host: qf1909
+    port: 5672
+    username: rabbit
+    password: 123456
+    host: 47.105.34.102
+  redis:
+    host: 47.105.34.102
+    port: 6379
+    password: password
+  datasource:
+    url: jdbc:mysql://47.105.34.102/qf-v6
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 8056
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+activeAccountServer: http://localhost:8057/email/active?uuid=
+

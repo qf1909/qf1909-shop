@@ -20,6 +20,11 @@
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-pay/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/shop-register-sms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/shop-register-email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/pom.xml" />
       </list>
     </option>
   </component>

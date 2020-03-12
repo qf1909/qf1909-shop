@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
-import java.util.List;
-import java.util.Map;
 
 @FeignClient("shop-search-service")
 public interface ISearchService {
