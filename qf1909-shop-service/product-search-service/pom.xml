@@ -34,12 +34,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <!--3、product-search-web-->
-        <dependency>
-            <groupId>com.qf</groupId>
-            <artifactId>product-search-web</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
         <!--4、solr-->
         <dependency>

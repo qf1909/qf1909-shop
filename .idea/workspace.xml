@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="" />
+    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__error_error_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/TProductSearchDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TProductSearchDTOMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TProductSearchDTOMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/searchMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/search/SearchMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/search/searchMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/search/searchMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/java/com/qf/ProductSearchServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/java/com/qf/ProductSearchServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/java/com/qf/service/SearchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/ProductSearchWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/ProductSearchWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/service/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,18 +136,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\千峰武汉\寒假资料\商城项目\git代码\qf1909-shop\qf1909-shop-web\product-search-web\src\main\resources\static" />
+      <recent name="D:\千峰武汉\寒假资料\商城项目\git代码\qf1909-shop\qf1909-shop-web\product-search-web\src\main\resources\templates" />
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static\images" />
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\templates" />
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static\css" />
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static" />
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-pay\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,18 +167,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ProductSearchWebApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.EurekaServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="product-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,14 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopSearchApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shop-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopSearchApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShopSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-search" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopSearchApplication" />
@@ -232,9 +255,7 @@
       <item itemvalue="Spring Boot.ShopPayApplication" />
       <item itemvalue="Spring Boot.ShopProductApplication" />
       <item itemvalue="Spring Boot.ShopSearchApplication" />
-      <item itemvalue="Spring Boot.ShopSearchApplication (1)" />
       <item itemvalue="Spring Boot.UserProviderApplication" />
-      <item itemvalue="Spring Boot.ProductSearchApplication" />
       <item itemvalue="Spring Boot.ProductSearchServiceApplication" />
       <item itemvalue="Spring Boot.ProductSearchWebApplication" />
     </list>
@@ -242,17 +263,22 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.26506954" />
+        <option name="contentProportion" value="0.29520866" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee22cb22" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c16948b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ee22cb22" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ef59151" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c16948b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cbe6ef35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c16948b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56b78b5b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +303,8 @@
       <workItem from="1583810200178" duration="3559000" />
       <workItem from="1583830336724" duration="3002000" />
       <workItem from="1583833801790" duration="12585000" />
+      <workItem from="1583902014022" duration="19041000" />
+      <workItem from="1584014141290" duration="11565000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
@@ -390,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583855594691</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="smj">
+      <created>1583902206822</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583902206822</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +473,8 @@
     <MESSAGE value="框架" />
     <MESSAGE value="smj-product-search-service" />
     <MESSAGE value="smj-search-!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="smj-search-!!!" />
+    <MESSAGE value="smj" />
+    <option name="LAST_COMMIT_MESSAGE" value="smj" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

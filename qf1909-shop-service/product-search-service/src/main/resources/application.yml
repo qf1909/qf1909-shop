@@ -9,6 +9,7 @@ spring:
       host: http://47.105.34.102:8983/solr/ik_core
   datasource:
     url: jdbc:mysql://47.105.34.102/qf-v6
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
@@ -22,3 +23,5 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
+
+imageServer: http://localhost:9084

@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: io.github.openfeign:feign-core:10.7.4">
     <CLASSES>
-<<<<<<< HEAD
       <root url="jar://G:/MavenWarehouse/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -9,15 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://G:/MavenWarehouse/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4-sources.jar!/" />
-=======
-      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://D:/program/maven/.m2/repository/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4-sources.jar!/" />
->>>>>>> origin/master
     </SOURCES>
   </library>
 </component>
