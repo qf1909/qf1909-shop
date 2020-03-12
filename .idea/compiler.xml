@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-search-service" />
         <module name="shop-pay" />
-        <module name="shop-login" />
         <module name="qf1909-shop-server" />
+        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
         <module name="user-provider" />
@@ -17,10 +17,10 @@
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="shop-basic" />
+        <module name="shop-login" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
-        <module name="shop-search" />
+        <module name="shop-basic" />
         <module name="shop-index" />
         <module name="product-search-web" />
       </profile>

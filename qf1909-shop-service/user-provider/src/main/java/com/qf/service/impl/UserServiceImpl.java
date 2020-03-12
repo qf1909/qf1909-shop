@@ -20,7 +20,7 @@ public class UserServiceImpl implements IUserService {
     /**
      * 登录检验
      */
-    @Override
+
     public ResultBean checkLogin(String username, String password) {
         TUser user = userMapper.selectByUsername(username);
         if (user != null){

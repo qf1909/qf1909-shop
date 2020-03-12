@@ -1,15 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.2.2.RELEASE">
     <CLASSES>
-<<<<<<< HEAD
-      <root url="jar://G:/MavenWarehouse/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://G:/MavenWarehouse/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://G:/MavenWarehouse/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE-sources.jar!/" />
-=======
       <root url="jar://D:/program/maven/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -17,7 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/program/maven/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE-sources.jar!/" />
->>>>>>> origin/master
     </SOURCES>
   </library>
 </component>

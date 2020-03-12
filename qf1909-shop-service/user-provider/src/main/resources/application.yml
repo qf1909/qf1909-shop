@@ -2,6 +2,12 @@
 spring:
   application:
     name: user-server
+  datasource:
+    url: jdbc:mysql://47.105.34.102/qf-v6
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
 
 server:
   port: 8762
