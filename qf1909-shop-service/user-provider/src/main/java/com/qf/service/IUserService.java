@@ -4,6 +4,5 @@ import com.qf.bean.ResultBean;
 
 public interface IUserService {
 
-
-     ResultBean checkLogin(String username, String password);
+    ResultBean loginCheck(String username, String password);
 }
