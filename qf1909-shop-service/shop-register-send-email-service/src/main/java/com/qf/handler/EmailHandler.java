@@ -35,7 +35,7 @@ public class EmailHandler {
             context.setVariable("url",message.getUrl());
             String info = engine.process("emailtemplate", context);
             helper.setText(info,true);
-            helper.setFrom("214490523@qq.com");
+            helper.setFrom("1004307154@qq.com");
             helper.setTo(message.getEmail());
             sender.send(mimeMessage);
         } catch (MessagingException e) {

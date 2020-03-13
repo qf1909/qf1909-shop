@@ -38,26 +38,26 @@
 
 							<div class="am-tabs-bd">
 								<div class="am-tab-panel  am-active">
-									<form action="/user/registByEmail" id="emailForm" method="post">
+									<form action="/emailRegister" id="emailForm" method="post">
 
 							   <div class="user-email">
 										<label for="email"><i class="am-icon-envelope-o"></i></label>
 										<input type="email" name="email" id="email" placeholder="请输入邮箱账号">
                  </div>
                  <div class="user-pass">
-								    <label for="password"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="password" id="password" placeholder="设置密码">
+								    <label for="email-password"><i class="am-icon-lock"></i></label>
+								    <input type="password" name="password" id="email-password" placeholder="设置密码">
                  </div>
                  <div class="user-pass">
-								    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+								    <label for="email-passwordRepeat"><i class="am-icon-lock"></i></label>
+								    <input type="password" name="" id="email-passwordRepeat" placeholder="确认密码">
                  </div>
 
                  </form>
 
 								 <div class="login-links">
-										<label for="reader-me">
-											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+										<label for="email-reader-me">
+											<input id="email-reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
 										</label>
 							  	</div>
 										<div class="am-cf">
@@ -79,17 +79,17 @@
 												<span id="dyMobileButton">获取</span></a>
 										</div>
                  <div class="user-pass">
-								    <label for="password"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="password" id="password" placeholder="设置密码">
+								    <label for="phone-password"><i class="am-icon-lock"></i></label>
+								    <input type="password" name="password" id="phone-password" placeholder="设置密码">
                  </div>
                  <div class="user-pass">
-								    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+								    <label for="phone-passwordRepeat"><i class="am-icon-lock"></i></label>
+								    <input type="password" name="" id="phone-passwordRepeat" placeholder="确认密码">
                  </div>
 									</form>
 								 <div class="login-links">
-										<label for="reader-me">
-											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+										<label for="phone-reader-me">
+											<input  id="phone-reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
 										</label>
 							  	</div>
 										<div class="am-cf">
@@ -98,13 +98,6 @@
 
 									<hr>
 								</div>
-
-								<script>
-									$(function() {
-									    $('#doc-my-tabs').tabs();
-									  })
-								</script>
-
 							</div>
 						</div>
 
@@ -133,16 +126,18 @@
 							</p>
 						</div>
 					</div>
+		</div>
 	</body>
-
-<script src="js/jquery.js">
-</script>
 <script>
+
+	$(function() {
+		$('#doc-my-tabs').tabs();
+	})
 
 	function sendMobileCode(){
 		var phone = $("#phone").val();
 		$.ajax({
-			url: '/user/getCode?phone='+phone,
+			url: 'getCode?phone='+phone,
 			dataType:'json',
 			type:'get',
 			success:function(d){
@@ -156,9 +151,9 @@
 	function pregist(){
 	    var phone = $("#phone").val();
 	    var code = $('#code').val();
-	    var password = $("#password").val();
+	    var password = $("#phone-password").val();
 	    $.ajax({
-			url: '/user/doRegist',
+			url: 'phoneRegister',
 			type: 'post',
 			data:{
 				"phone":phone,
@@ -169,11 +164,7 @@
 			success:function(d){
 				alert(d.message);
 			}
-
-
 		})
-
-
     }
 
     function eregist(){

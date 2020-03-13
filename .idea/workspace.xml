@@ -2,121 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="shop search service  3-11">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__axis_axis_wsdl4j_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_3_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_discovery_commons_discovery_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_ant_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_jaxrpc_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_axis_axis_saaj_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_http_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_upload_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_junit_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_test_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/CookieConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/StringConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/dto/EmailMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/util/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/classes/META-INF/shop-basic.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/register/RegisterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/register/registerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/register/registerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/java/com/qf/ShopRegisterSendCodeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/java/com/qf/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/java/com/qf/handler/SMSHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/java/com/qf/util/SMSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/test/java/com/qf/ShopRegisterSendCodeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/ShopRegisterSendEmailServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/config/EmailRabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/handler/EmailHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/templates/emailtemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/test/java/com/qf/ShopRegisterSendEmailServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/ShopRegisterServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/controller/EmailRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/controller/PhoneRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/service/IEmailRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/service/IPhoneRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/service/impl/EmailRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/java/com/qf/service/impl/PhoneRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/test/java/com/qf/ShopRegisterServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/IRegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/shop-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/shop-mapper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/chongzhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/ibar_sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/logobar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/logobig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/no-img_mid_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/wdsc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/images/weixin_code_145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/js/jquery-1.7.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/js/jquery-1.9.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/basic/js/quick_links.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/js/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/js/address.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/handler/EmailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/java/com/qf/handler/EmailHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/service/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/java/com/qf/service/ISearchService.java" afterDir="false" />
     </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,12 +47,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -367,17 +256,22 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7962b544" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1c27cb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7962b544" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c0d8c674" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1c27cb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@99f5ddf4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7962b544" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fba08ae2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1c27cb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4b3443a8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e1c27cb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e9dd030" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -407,6 +301,7 @@
       <workItem from="1584027094260" duration="68000" />
       <workItem from="1584027335057" duration="73000" />
       <workItem from="1584027432720" duration="1786000" />
+      <workItem from="1584107603974" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
