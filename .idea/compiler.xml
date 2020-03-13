@@ -6,27 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="product-search-service" />
         <module name="shop-pay" />
         <module name="qf1909-shop-server" />
+        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
-        <module name="order-service" />
         <module name="user-provider" />
+        <module name="shop-sso" />
         <module name="shop-product" />
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="shop-basic" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
-        <module name="shop-search" />
+        <module name="shop-basic" />
         <module name="shop-index" />
-        <module name="shop-login" />
+        <module name="product-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
-      <module name="order-service" target="1.8" />
+      <module name="product-search" target="1.8" />
+      <module name="product-search-service" target="1.8" />
+      <module name="product-search-web" target="1.8" />
       <module name="qf1909-shop-common" target="1.5" />
       <module name="qf1909-shop-server" target="1.5" />
       <module name="qf1909-shop-service" target="1.5" />
@@ -41,13 +44,16 @@
       <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-search" target="1.8" />
+      <module name="shop-sso" target="1.8" />
       <module name="user-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
-      <module name="order-service" options="-parameters" />
+      <module name="product-search" options="-parameters" />
+      <module name="product-search-service" options="-parameters" />
+      <module name="product-search-web" options="-parameters" />
       <module name="shop-cart" options="-parameters" />
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
@@ -55,6 +61,7 @@
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-search" options="-parameters" />
+      <module name="shop-sso" options="-parameters" />
       <module name="user-provider" options="-parameters" />
     </option>
   </component>
