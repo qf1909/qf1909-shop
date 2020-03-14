@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qf_shop_login_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/shop-basic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/shop-mapper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5425b79-f6b7-4d91-a48f-99352837dade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5425b79-f6b7-4d91-a48f-99352837dade.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/product-search-service.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -21,6 +36,8 @@
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/mvnw" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/ShopLoginApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/AmazeUI-2.4.2/assets/css/admin.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/static/AmazeUI-2.4.2/assets/css/amazeui.css" beforeDir="false" />
@@ -304,6 +321,9 @@
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/login.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/templates/register.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/test/java/com/qf/ShopLoginApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.yml" afterDir="false" />
     </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
     <ignored path="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/" />
@@ -325,6 +345,8 @@
     <ignored path="$PROJECT_DIR$/qf1909-shop-service/target/" />
     <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-index/target/" />
     <ignored path="$PROJECT_DIR$/qf1909-shop-web/shop-sso/target/" />
+    <ignored path="$PROJECT_DIR$/qf1909-shop-service/pay-service/target/" />
+    <ignored path="$PROJECT_DIR$/qf1909-shop-service/order-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,23 +396,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="181">
+              <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -399,37 +409,123 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderProvicerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="95">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/java/com/qf/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/OrderServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TOrderdetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="152">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1575#1576#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1709#1710#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1801#1802#0" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#1963#1964#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
+                <element signature="e#2069#2070#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
+                <element signature="e#2287#2288#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#2376#2377#0" expanded="true" />
+                <element signature="e#2417#2418#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+                <element signature="e#2478#2479#0" expanded="true" />
+                <element signature="e#2503#2504#0" expanded="true" />
+                <element signature="e#2549#2550#0" expanded="true" />
+                <element signature="e#2583#2584#0" expanded="true" />
+                <element signature="e#2614#2615#0" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#2679#2680#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/IOrderdetailMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderConsumerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -438,10 +534,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/RegistController.java">
+        <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/CreatOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="162">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -454,9 +550,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="mybatis.mapper" />
         <option value="mybatis mapper" />
         <option value="Interface" />
+        <option value="mybatis.mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -464,6 +560,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>注册</find>
+      <find>amountExchangeScore</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -477,15 +574,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/dto/TProductSearchDTO.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/CookiesConstant.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RedisConstant.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TUser.java" />
-        <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/service/MyService.java" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IUserService.java" />
@@ -506,6 +594,37 @@
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/java/com/qf/ShopPayApplication.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/controller/PayController.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/OrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderConfirm.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/Area.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderConfirmController.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/controller/OrederConfirm.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/controller/OrederConfirmController.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RedisConstant.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TOrderdetail.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/CartInfo.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TOrder.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TOrderMapper.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/IOrderdetailMapper.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/IOrderdetailMapper.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderProvicerConfig.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/CreatOrderService.java" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/OrderServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -536,11 +655,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="461" />
-    <option name="y" value="76" />
-    <option name="width" value="1553" />
-    <option name="height" value="848" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
+    <option name="y" value="22" />
+    <option name="width" value="1293" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1Yvk9mQYotkr3WujiQaChVJJIL8" />
   <component name="ProjectView">
@@ -558,87 +677,7 @@
             <path>
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="qf1909-shop-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -649,20 +688,20 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="product-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="product-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="product-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -670,7 +709,7 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="product-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -679,37 +718,7 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -719,7 +728,18 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -730,7 +750,7 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -741,19 +761,19 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -762,167 +782,13 @@
               <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
               <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qf1909-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qf1909-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="qf1909-shop-web" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -932,18 +798,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qf.bean" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static\images" />
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\templates" />
       <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static\css" />
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static" />
-      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-pay\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static\basic" />
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹 (2)\qf1909-shop\qf1909-shop\qf1909-shop-web\shop-sso\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -968,28 +837,20 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.EurekaServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="product-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchApplication" />
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.OrderServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="product-search-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductSearchWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="product-search-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductSearchWebApplication" />
+    <configuration name="PayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.PayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1004,26 +865,6 @@
     <configuration name="ShopIndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-index" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopIndexApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopLoginApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop-login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qf.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.login.ShopLoginApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shop-login" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopLoginApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1056,13 +897,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopSsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shop-sso" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopSsoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.UserProviderApplication" />
@@ -1071,26 +905,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.ShopCartApplication" />
-      <item itemvalue="Spring Boot.ShopIndexApplication" />
-      <item itemvalue="Spring Boot.ShopLoginApplication" />
-      <item itemvalue="Spring Boot.ShopOrderApplication" />
-      <item itemvalue="Spring Boot.ShopPayApplication" />
-      <item itemvalue="Spring Boot.ShopProductApplication" />
-      <item itemvalue="Spring Boot.ShopSearchApplication" />
       <item itemvalue="Spring Boot.UserProviderApplication" />
-      <item itemvalue="Spring Boot.ProductSearchApplication" />
-      <item itemvalue="Spring Boot.ProductSearchServiceApplication" />
-      <item itemvalue="Spring Boot.ProductSearchWebApplication" />
-      <item itemvalue="Spring Boot.ShopSsoApplication" />
-      <item itemvalue="Spring Boot.ShopLoginApplication (1)" />
+      <item itemvalue="Spring Boot.ShopPayApplication" />
+      <item itemvalue="Spring Boot.ShopSearchApplication" />
+      <item itemvalue="Spring Boot.ShopOrderApplication" />
+      <item itemvalue="Spring Boot.ShopIndexApplication" />
+      <item itemvalue="Spring Boot.ShopCartApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ShopProductApplication" />
+      <item itemvalue="Spring Boot.PayServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ShopLoginApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -1120,6 +945,8 @@
       <workItem from="1583830336724" duration="3002000" />
       <workItem from="1583833801790" duration="12585000" />
       <workItem from="1583980548949" duration="17434000" />
+      <workItem from="1584107461136" duration="550000" />
+      <workItem from="1584177064095" duration="9111000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
@@ -1226,16 +1053,24 @@
       <option name="project" value="LOCAL" />
       <updated>1584000569316</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="支付宝支付">
+      <created>1584107850569</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584107850569</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18996000" />
+    <option name="totallyTimeSpent" value="38485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="218" y="62" width="1323" height="740" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.28300396" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25670242" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1251,16 +1086,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.41218132" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3611898" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.26912183" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" sideWeight="0.49932975" visible="true" weight="0.1825658" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.305949" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.17962466" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3285568" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.21442126" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
@@ -1323,94 +1158,264 @@
     <MESSAGE value="smj-product-search-service" />
     <MESSAGE value="smj-search-!!!" />
     <MESSAGE value="hx" />
-    <option name="LAST_COMMIT_MESSAGE" value="hx" />
+    <MESSAGE value="支付宝支付" />
+    <option name="LAST_COMMIT_MESSAGE" value="支付宝支付" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/CookiesConstant.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/service/IpayService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/java/com/qf/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/java/com/qf/ShopPayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/PayServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/java/com/qf/service/IPayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/templates/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="438" column="46" selection-start-line="438" selection-start-column="46" selection-end-line="438" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/java/com/qf/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/java/com/qf/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pay-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/orderConfirm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/static/css/cartstyle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/orderinfo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/static/basic/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="316" column="83" selection-start-line="316" selection-start-column="83" selection-end-line="316" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/Address.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/Area.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderConfirmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/controller/OrederConfirmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/constant/RedisConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/util/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/maven/.m2/repository/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TProductSearchDTOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TProductSearchDTOMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/maven/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.31/tomcat-embed-core-9.0.31.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,292 +1426,310 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/java/com/qf/ProductSearchServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/product-search-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/product-search-service/src/main/java/com/qf/service/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/service/ISearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/src/main/java/com/qf/ProductSearchWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/login/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/login/ShopLoginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" selection-start-line="5" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/login/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="47" selection-start-line="15" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/login/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/ShopSsoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/login/controller/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/CartInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IUserService.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TProductDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/Orderdetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-basic/src/main/java/com/qf/bean/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#3013#3014#0" expanded="true" />
+            <element signature="e#3046#3047#0" expanded="true" />
+            <element signature="e#3074#3075#0" expanded="true" />
+            <element signature="e#3093#3094#0" expanded="true" />
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3150#3151#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="e#3206#3207#0" expanded="true" />
+            <element signature="e#3250#3251#0" expanded="true" />
+            <element signature="e#3282#3283#0" expanded="true" />
+            <element signature="e#3315#3316#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+            <element signature="e#3384#3385#0" expanded="true" />
+            <element signature="e#3416#3417#0" expanded="true" />
+            <element signature="e#3447#3448#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3510#3511#0" expanded="true" />
+            <element signature="e#3538#3539#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+            <element signature="e#3592#3593#0" expanded="true" />
+            <element signature="e#3634#3635#0" expanded="true" />
+            <element signature="e#3664#3665#0" expanded="true" />
+            <element signature="e#3702#3703#0" expanded="true" />
+            <element signature="e#3729#3730#0" expanded="true" />
+            <element signature="e#3782#3783#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+            <element signature="e#3851#3852#0" expanded="true" />
+            <element signature="e#3874#3875#0" expanded="true" />
+            <element signature="e#3916#3917#0" expanded="true" />
+            <element signature="e#3946#3947#0" expanded="true" />
+            <element signature="e#3983#3984#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4066#4067#0" expanded="true" />
+            <element signature="e#4108#4109#0" expanded="true" />
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4162#4163#0" expanded="true" />
+            <element signature="e#4204#4205#0" expanded="true" />
+            <element signature="e#4234#4235#0" expanded="true" />
+            <element signature="e#4262#4263#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4342#4343#0" expanded="true" />
+            <element signature="e#4373#4374#0" expanded="true" />
+            <element signature="e#4396#4397#0" expanded="true" />
+            <element signature="e#4438#4439#0" expanded="true" />
+            <element signature="e#4468#4469#0" expanded="true" />
+            <element signature="e#4502#4503#0" expanded="true" />
+            <element signature="e#4527#4528#0" expanded="true" />
+            <element signature="e#4574#4575#0" expanded="true" />
+            <element signature="e#4608#4609#0" expanded="true" />
+            <element signature="e#4642#4643#0" expanded="true" />
+            <element signature="e#4668#4669#0" expanded="true" />
+            <element signature="e#4716#4717#0" expanded="true" />
+            <element signature="e#4752#4753#0" expanded="true" />
+            <element signature="e#4789#4790#0" expanded="true" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4872#4873#0" expanded="true" />
+            <element signature="e#4914#4915#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
+            <element signature="e#5030#5031#0" expanded="true" />
+            <element signature="e#5070#5071#0" expanded="true" />
+            <element signature="e#5106#5107#0" expanded="true" />
+            <element signature="e#5134#5135#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+            <element signature="e#5226#5227#0" expanded="true" />
+            <element signature="e#5267#5268#0" expanded="true" />
+            <element signature="e#5300#5301#0" expanded="true" />
+            <element signature="e#5362#5363#0" expanded="true" />
+            <element signature="e#5412#5413#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="e#5466#5467#0" expanded="true" />
+            <element signature="e#5508#5509#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5572#5573#0" expanded="true" />
+            <element signature="e#5598#5599#0" expanded="true" />
+            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="e#5682#5683#0" expanded="true" />
+            <element signature="e#5725#5726#0" expanded="true" />
+            <element signature="e#5760#5761#0" expanded="true" />
+            <element signature="e#5826#5827#0" expanded="true" />
+            <element signature="e#5880#5881#0" expanded="true" />
+            <element signature="e#5914#5915#0" expanded="true" />
+            <element signature="e#5940#5941#0" expanded="true" />
+            <element signature="e#5988#5989#0" expanded="true" />
+            <element signature="e#6024#6025#0" expanded="true" />
+            <element signature="e#6073#6074#0" expanded="true" />
+            <element signature="e#6114#6115#0" expanded="true" />
+            <element signature="e#6296#6297#0" expanded="true" />
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6382#6383#0" expanded="true" />
+            <element signature="e#6426#6427#0" expanded="true" />
+            <element signature="e#6457#6458#0" expanded="true" />
+            <element signature="e#6479#6480#0" expanded="true" />
+            <element signature="e#6520#6521#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6589#6590#0" expanded="true" />
+            <element signature="e#6625#6626#0" expanded="true" />
+            <element signature="e#6690#6691#0" expanded="true" />
+            <element signature="e#6746#6747#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/service/IRegistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="81" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TUser.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="245">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/RegistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/controller/RegistController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/IRegistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/controller/RegistController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/java/com/qf/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/TOrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qf1909-shop-web/shop-sso/src/main/java/com/qf/sso/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/IOrderdetailMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-entity/src/main/java/com/qf/entity/TOrderdetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2417#2418#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+            <element signature="e#2503#2504#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2583#2584#0" expanded="true" />
+            <element signature="e#2614#2615#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/IOrderdetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/OrderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderProvicerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/config/OrderConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/CreatOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qf1909-shop-service/order-service/src/main/java/com/qf/service/serviceImpl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

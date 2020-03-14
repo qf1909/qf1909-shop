@@ -54,8 +54,8 @@ public class PayController {
                 "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyrJDK3t0KIzooQKVSzCXqPpQMRQqMb2BVuJPCAX7WnLoDhsbJo8SnfVM+eWOmgyHEo3GVRnCNo6kH5dLdfPJaEK3Xcni1vERZ5DgGYUpjr1KaNz8rpvhQ4CHd0BdPHUvtbAuHxF+HehD9sm8/druS1T5DIaOg1HG+2h+COyrXgBNyFhBPk8ePAwNws+jGeoDkNAjcmY6DeMcqUSTfEX5ErACsw2fiE0qvK1CxbK0DLZFxuWU5Q5HSfPR7wS2vm/j6XhHeFoKwCpQEQOIWqBqaNE7plq91zfpck2tEIxLsIlYO9PyVvuif5N5fPudqAcIfjIRUyeGMVudk9CvVMdw/wIDAQAB+hVdDOTxNlW1uTXUneP1/JJKpCHLN4VT3zRYNDCehu2ow4yg6vv+6m9aiK0E0vl1BvWykLuwC8MfveqYazGXRGos165jgPFcyN9LIG4ztL6vrHH8etIaElu7AdeaQnBox3b+puWlmGOmiLq83MtLxcHZHCuw4yqZrZTNnOsZyqgWgp+xPXVfhUD7HsuQcXiv47FboSt6yaVQpmSXXYHo68Idr3mxYPM6X4pZyQwuLkoYBB4sJPmwE2525sJSWOP9nwQG3ypAT6+kLk5kYK1IurtpVP5g2m2wIDAQAB",
                 "RSA2"); //获得初始化的AlipayClient
         AlipayTradePagePayRequest alipayRequest = new AlipayTradePagePayRequest();//创建API对应的request
-        alipayRequest.setReturnUrl("http://zvt9t8.natappfree.cc/success");
-        alipayRequest.setNotifyUrl("http://zvt9t8.natappfree.cc/notifyUrl");//在公共参数中设置回跳和通知地址
+        alipayRequest.setReturnUrl("http://localhost:9085/success");
+        alipayRequest.setNotifyUrl("http://ggkuq4.natappfree.cc/notifyUrl");//在公共参数中设置回跳和通知地址
         alipayRequest.setBizContent("{" +
                 "    \"out_trade_no\":\""+oid+"\"," +
                 "    \"product_code\":\"FAST_INSTANT_TRADE_PAY\"," +

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.TOrderdetailMapper">
+
+    <insert id="creatOrderDetail">
+        insert into t_orderdetail
+        (orderID, productID, price, number, productName, fee, total0, isComment, lowStocks, score, specInfo, giftID)
+        VALUES
+        (#{orderID},#{ productID}, #{price}, #{number},#{ productName}, #{fee}, #{total0}, #{isComment}, #{lowStocks}, #{score}, #{specInfo}, #{giftID})
+    </insert>
+
+</mapper>
