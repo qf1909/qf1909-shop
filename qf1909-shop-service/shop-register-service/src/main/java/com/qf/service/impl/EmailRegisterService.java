@@ -7,6 +7,7 @@ import com.qf.dto.EmailMessageDTO;
 import com.qf.entity.TUser;
 import com.qf.mapper.register.RegisterMapper;
 import com.qf.service.IEmailRegisterService;
+import com.qf.util.SpringSecurityUtil;
 import com.qf.util.StringUtil;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,7 +47,7 @@ public class EmailRegisterService implements IEmailRegisterService {
             //2.将数据插入到数据库中
             TUser user = new TUser();
             user.setEmail(email);
-            user.setPassword(password);
+            user.setPassword(SpringSecurityUtil.getEncodePassword(password));
             registerMapper.insertRegisterUser(user);
             //3.存入到redis中
             //组织键

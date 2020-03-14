@@ -8,4 +8,6 @@ public interface RegisterMapper {
 
 //    void  insertRegisterUser(@Param("password") String password,@Param("phone") String phone);
     void  insertRegisterUser(TUser user);
+
+    void  updateRegisterStatus(@Param("email") String email);
 }

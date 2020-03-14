@@ -5,6 +5,7 @@ import com.qf.constant.RedisConstant;
 import com.qf.entity.TUser;
 import com.qf.mapper.register.RegisterMapper;
 import com.qf.service.IPhoneRegisterService;
+import com.qf.util.SpringSecurityUtil;
 import com.qf.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -28,8 +29,9 @@ public class PhoneRegisterService implements IPhoneRegisterService {
         if (redisCode.equals(code)){
             //注册信息插入数据库
             TUser user = new TUser();
-            user.setPassword(password);
+            user.setPassword(SpringSecurityUtil.getEncodePassword(password));
             user.setPhone(phone);
+            user.setFlag(1);
             registerMapper.insertRegisterUser(user);
             return  ResultBean.success("注册成功!");
         }

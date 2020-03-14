@@ -41,10 +41,9 @@ public class RegisterController {
     }
 
     @RequestMapping("emailRegister")
-    @ResponseBody
-    public  ResultBean  registerByEmail(@RequestParam String email, @RequestParam String password){
+    public  String  registerByEmail(@RequestParam String email, @RequestParam String password){
         ResultBean resultBean = registerService.registerByEmail(email, password);
-//        return "redirect:/user/showLogin";
-        return resultBean;
+        System.out.println(resultBean);
+        return "redirect:/login";
     }
 }

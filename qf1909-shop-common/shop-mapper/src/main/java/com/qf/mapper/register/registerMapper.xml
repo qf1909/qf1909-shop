@@ -74,4 +74,8 @@
 <!--    <insert id="insertRegisterUser">-->
 <!--        insert into t_user(password,phone)values (#{password},#{phone})-->
 <!--    </insert>-->
+
+    <update id="updateRegisterStatus">
+        update  t_user  set  flag = 1  where email=#{email};
+    </update>
 </mapper>

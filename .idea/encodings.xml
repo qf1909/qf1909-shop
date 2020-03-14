@@ -2,11 +2,11 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-register-email-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-register-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/user-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-web/shop-cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-web/shop-index" charset="UTF-8" />
