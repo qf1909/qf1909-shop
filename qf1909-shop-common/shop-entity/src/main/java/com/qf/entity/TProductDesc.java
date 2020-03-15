@@ -1,7 +1,9 @@
 package com.qf.entity;
 
 
-public class TProductDesc {
+import java.io.Serializable;
+
+public class TProductDesc implements Serializable {
 
   private long id;
   private long pid;

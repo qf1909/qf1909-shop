@@ -12,7 +12,7 @@ spring:
       host: http://47.105.34.102:8983/solr/ik_core
 
 server:
-  port: 8053
+  port: 8084
 
 eureka:
   client:

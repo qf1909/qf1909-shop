@@ -2,7 +2,7 @@ spring:
   application:
     name: shop-search-web
 server:
-  port: 8054
+  port: 9084
 
 eureka:
   client:

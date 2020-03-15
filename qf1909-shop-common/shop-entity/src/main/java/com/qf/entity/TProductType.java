@@ -1,7 +1,9 @@
 package com.qf.entity;
 
 
-public class TProductType {
+import java.io.Serializable;
+
+public class TProductType implements Serializable {
 
   private long cid;
   private String cname;

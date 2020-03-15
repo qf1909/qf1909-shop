@@ -26,7 +26,7 @@ public class UserService implements IUserService {
     @Override
     public ResultBean checkLogin(String username, String password) {
         TUser user = tUserMapper.selectByUsername(username);
-        if (password !=null && !"".equals(password) && encoder.matches(password,user.getPassword())){
+        if (password !=null && !"".equals(password) && encoder.matches(password,user.getPassword())&&user.getFlag()==1){
                 return  ResultBean.success(user,"登录成功");
         }
         return ResultBean.error("登录失败");

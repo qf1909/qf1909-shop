@@ -22,10 +22,10 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
 server:
-  port: 8056
+  port: 8081
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-activeAccountServer: http://localhost:8057/email/active?uuid=
+activeAccountServer: http://localhost:8082/email/active?uuid=
 

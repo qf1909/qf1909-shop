@@ -5,5 +5,7 @@ F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\c
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\bean\ResultBean.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\dto\ProductSearchDTO.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\CookieConstant.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\dto\EmailMessageDTO.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\StringUtil.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\RabbitConstant.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\SpringSecurityUtil.java

@@ -17,7 +17,7 @@ spring:
     password: zvtvffflgqypbdhb
     default-encoding: utf-8
 server:
-  port: 8057
+  port: 8082
 eureka:
   client:
     serviceUrl:

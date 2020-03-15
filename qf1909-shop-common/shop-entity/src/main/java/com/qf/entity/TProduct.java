@@ -1,7 +1,9 @@
 package com.qf.entity;
 
 
-public class TProduct {
+import java.io.Serializable;
+
+public class TProduct implements Serializable {
 
   private long pid;
   private String pname;

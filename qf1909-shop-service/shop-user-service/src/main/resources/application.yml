@@ -16,7 +16,7 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
 server:
-  port: 8058
+  port: 8085
 eureka:
   client:
     serviceUrl:
