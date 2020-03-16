@@ -1,6 +1,7 @@
 package com.qf.service;
 
 import com.qf.bean.ResultBean;
+import com.qf.vo.TProductSearchVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ISearchService {
 
     @RequestMapping("searchByKeyword")
-    ResultBean searchByKeyword(@RequestParam String keyword);
+    TProductSearchVo searchByKeyword(@RequestParam String keyword,@RequestParam Integer pageNo);
 
     @RequestMapping("add")
     ResultBean addProduct();
 
     @RequestMapping("searchAll")
-    ResultBean searchAll();
+    TProductSearchVo searchAll(@RequestParam Integer pageNo);
 }

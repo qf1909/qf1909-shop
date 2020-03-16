@@ -4,6 +4,7 @@ import com.qf.bean.ResultBean;
 import com.qf.dto.TProductSearchDTO;
 import com.qf.mapper.search.SearchMapper;
 import com.qf.service.ISearchService;
+import com.qf.vo.TProductSearchVo;
 import org.apache.ibatis.javassist.compiler.ast.Keyword;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
@@ -35,23 +36,27 @@ public class SearchServiceImpl implements ISearchService {
     @Autowired
     private SearchMapper searchMapper;
 
-    @Value("${imageServer}")
-    private String imageServer;
-
     @Override
-    public ResultBean selectByKeyword(String keyword) {
+    public TProductSearchVo selectByKeyword(String keyword,Integer pageNo) {
+        if (pageNo == null){
+            pageNo = 1;
+        }
+        // 1->0  2->11 3->23
+        Integer pageNum = (pageNo-1)*12;
         // 创建查询对象
         SolrQuery query = new SolrQuery();
         query.set("df","t_item_keywords");
         query.setQuery(keyword);
         // 分页
-        query.setStart(0);
+        query.setStart(pageNum);
         query.setRows(12);
         // 高亮
         query.setHighlight(true);
         query.addHighlightField("t_product_name");
         query.setHighlightSimplePre("<span style='color:red'>");
         query.setHighlightSimplePost("</span>");
+
+        TProductSearchVo tProductSearchVo = new TProductSearchVo();
 
         try {
             QueryResponse response = solrClient.query(query);
@@ -80,7 +85,7 @@ public class SearchServiceImpl implements ISearchService {
                 product.setTProductSalePrice(new BigDecimal(t_product_sale_price));
 
                 String p_product_pimage = (String) document.getFieldValue("p_product_pimage");
-                product.setTProductPimage(imageServer+"/"+p_product_pimage);
+                product.setTProductPimage(p_product_pimage);
 
                 String p_product_pdesc = (String) document.getFieldValue("p_product_pdesc");
                 product.setTProductPdesc(p_product_pdesc);
@@ -89,7 +94,8 @@ public class SearchServiceImpl implements ISearchService {
 
             }
 
-            return ResultBean.success(tProductSearchDTOS);
+            tProductSearchVo.setList(tProductSearchDTOS);
+            tProductSearchVo.setPageNo(pageNo);
 
         } catch (SolrServerException e) {
             e.printStackTrace();
@@ -97,7 +103,7 @@ public class SearchServiceImpl implements ISearchService {
             e.printStackTrace();
         }
 
-        return ResultBean.error("查询出现异常！");
+        return tProductSearchVo;
     }
 
     /**
@@ -137,15 +143,21 @@ public class SearchServiceImpl implements ISearchService {
     }
 
     @Override
-    public ResultBean searchAllFromSolr() {
+    public TProductSearchVo searchAllFromSolr(Integer pageNo) {
+        if (pageNo == null){
+            pageNo = 1;
+        }
+        // 1->0  2->11 3->23
+        Integer pageNum = (pageNo-1)*12;
         // 创建查询对象
         SolrQuery query = new SolrQuery();
         query.set("df","t_item_keywords");
         query.setQuery("*:*");
         // 分页
-        query.setStart(0);
+        query.setStart(pageNum);
         query.setRows(12);
 
+        TProductSearchVo tProductSearchVo = new TProductSearchVo();
         try {
             QueryResponse response = solrClient.query(query);
 
@@ -169,7 +181,7 @@ public class SearchServiceImpl implements ISearchService {
                 product.setTProductSalePrice(new BigDecimal(t_product_sale_price));
 
                 String p_product_pimage = (String) document.getFieldValue("p_product_pimage");
-                product.setTProductPimage(imageServer+"/"+p_product_pimage);
+                product.setTProductPimage(p_product_pimage);
 
                 String p_product_pdesc = (String) document.getFieldValue("p_product_pdesc");
                 product.setTProductPdesc(p_product_pdesc);
@@ -178,7 +190,8 @@ public class SearchServiceImpl implements ISearchService {
 
             }
 
-            return ResultBean.success(tProductSearchDTOS);
+            tProductSearchVo.setList(tProductSearchDTOS);
+            tProductSearchVo.setPageNo(pageNo);
 
         } catch (SolrServerException e) {
             e.printStackTrace();
@@ -186,7 +199,7 @@ public class SearchServiceImpl implements ISearchService {
             e.printStackTrace();
         }
 
-        return ResultBean.error("搜索全部solr库数据失败");
+        return tProductSearchVo;
     }
 
 

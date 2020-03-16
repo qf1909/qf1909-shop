@@ -3,12 +3,15 @@ package com.qf.controller;
 import com.qf.bean.ResultBean;
 import com.qf.dto.TProductSearchDTO;
 import com.qf.service.ISearchService;
+import com.qf.vo.TProductSearchVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,11 +26,17 @@ public class SearchController {
     private ISearchService searchService;
 
     @RequestMapping("searchByKeyword")
-    @ResponseBody
-    public ResultBean searchByKeyword(String keyword){
-        ResultBean resultBean = searchService.searchByKeyword(keyword);
-
-        return resultBean;
+    public String searchByKeyword(String keyword,Integer pageNo,Model model){
+        if (pageNo == null){
+            pageNo = 1;
+        }
+        TProductSearchVo tProductSearchVo = searchService.searchByKeyword(keyword,pageNo);
+        model.addAttribute("products",tProductSearchVo.getList());
+        model.addAttribute("pageNo",tProductSearchVo.getPageNo());
+        model.addAttribute("search","search");
+        model.addAttribute("keyword",keyword);
+        model.addAttribute("url","/search/searchByKeyword");
+        return "search";
     }
 
     @RequestMapping("addProToSolr")
@@ -40,10 +49,10 @@ public class SearchController {
 
 
     @RequestMapping("searchAll")
-    public String searchAll(Model model){
-        ResultBean resultBean = searchService.searchAll();
-        List<TProductSearchDTO> tProductSearchDTOS = (List<TProductSearchDTO>) resultBean.getData();
-        model.addAttribute("tProductSearchDTOS",tProductSearchDTOS);
+    public String searchAll(Model model,Integer pageNo){
+        TProductSearchVo tProductSearchVo = searchService.searchAll(pageNo);
+        model.addAttribute("products",tProductSearchVo.getList());
+        model.addAttribute("pageNo",pageNo);
         return "search";
     }
 

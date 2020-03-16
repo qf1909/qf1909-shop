@@ -56,7 +56,7 @@
 
 				<div class="search-bar pr">
 					<a name="index_none_header_sysc" href="#"></a>
-					<form action="/search">
+					<form action="/search/searchByKeyword">
 						<input id="searchInput" name="keyword" type="text" placeholder="搜索" autocomplete="off">
 						<input id="ai-topsearch" class="submit am-btn"  value="搜索" index="1" type="submit">
 					</form>
@@ -164,7 +164,7 @@
 
 								<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes">
 
-									<li th:onclick="|intoProductInfo(${pro.id})|" th:each="pro : ${tProductSearchDTOS}">
+									<li th:onclick="|intoProductInfo(${pro.getId()})|" th:each="pro : ${products}">
 										<div class="i-pic limit">
 											<img th:src="${pro.getTProductPimage()}" />
 											<p class="title fl"><span th:utext="${pro.getTProductName()}"></span></p>
@@ -173,7 +173,7 @@
 												<strong><span th:text="${pro.getTProductSalePrice()}"></span></strong>
 											</p>
 											<p class="number fl">
-												销量<span>1000</span>
+												销量<span>1110</span>
 											</p>
 										</div>
 									</li>
@@ -229,15 +229,18 @@
 							</div>
 							<div class="clear"></div>
 							<!--分页 -->
-							<ul class="am-pagination am-pagination-right">
-								<li class="am-disabled"><a href="#">&laquo;</a></li>
-								<li class="am-active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&raquo;</a></li>
-							</ul>
+							<div th:if="${search}" class="am-pagination am-pagination-right">
+								<button><a th:href="@{${url}(keyword=${keyword},pageNo=${pageNo}-1)}">上一页</a></button>
+								<button><a th:href="@{${url}(keyword=${keyword},pageNo=${pageNo}+1)}">下一页</a></button>
+							</div>
+
+
+							<!--<ul class="am-pagination am-pagination-right">
+								<a href="">首页</a>
+								<li class="am-active"><a href="#">上一页</a></li>
+								<li><a href="#">下一页</a></li>
+								<li><a href="#">尾页</a></li>
+							</ul>-->
 
 						</div>
 					</div>

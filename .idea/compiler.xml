@@ -9,6 +9,7 @@
         <module name="product-search-service" />
         <module name="shop-pay" />
         <module name="qf1909-shop-server" />
+        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
         <module name="user-provider" />
@@ -17,16 +18,19 @@
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="shop-basic" />
+        <module name="product-search-web" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
-        <module name="shop-search" />
+        <module name="product-order-web" />
+        <module name="shop-basic" />
         <module name="shop-index" />
-        <module name="product-search-web" />
+        <module name="product-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="product-order-service" target="1.8" />
+      <module name="product-order-web" target="1.8" />
       <module name="product-search" target="1.8" />
       <module name="product-search-service" target="1.8" />
       <module name="product-search-web" target="1.8" />
@@ -51,6 +55,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="product-order-service" options="-parameters" />
+      <module name="product-order-web" options="-parameters" />
       <module name="product-search" options="-parameters" />
       <module name="product-search-service" options="-parameters" />
       <module name="product-search-web" options="-parameters" />

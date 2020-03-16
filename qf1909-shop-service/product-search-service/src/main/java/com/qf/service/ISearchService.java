@@ -2,6 +2,7 @@ package com.qf.service;
 
 import com.qf.bean.ResultBean;
 import com.qf.dto.TProductSearchDTO;
+import com.qf.vo.TProductSearchVo;
 
 import java.util.List;
 
@@ -16,7 +17,7 @@ public interface ISearchService {
      * @param keyword
      * @return
      */
-    ResultBean selectByKeyword(String keyword);
+    TProductSearchVo selectByKeyword(String keyword,Integer pageNo);
 
     /**
      * 将数据库的数据插入solr库中
@@ -28,5 +29,5 @@ public interface ISearchService {
      * 查询Solr库的所有数据
      * @return
      */
-    ResultBean searchAllFromSolr();
+    TProductSearchVo searchAllFromSolr(Integer pageNo);
 }

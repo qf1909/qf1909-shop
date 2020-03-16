@@ -1,3 +1,4 @@
 com\qf\bean\ResultBean.class
-com\qf\dto\TProductSearchDTO.class
 com\qf\constant\RabbitConstant.class
+com\qf\vo\TProductSearchVo.class
+com\qf\dto\TProductSearchDTO.class

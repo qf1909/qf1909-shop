@@ -9,3 +9,9 @@ eureka:
 spring:
   application:
     name: product-search-web
+  mvc:
+    async:
+      request-timeout: 20000
+
+
+

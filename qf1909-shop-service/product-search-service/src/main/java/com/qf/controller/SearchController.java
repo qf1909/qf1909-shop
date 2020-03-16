@@ -2,6 +2,7 @@ package com.qf.controller;
 
 import com.qf.bean.ResultBean;
 import com.qf.service.ISearchService;
+import com.qf.vo.TProductSearchVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author smj
  * @date 2020/3/11 - 16:30
  */
-@RestController
+@Controller
 public class SearchController {
 
     @Autowired
@@ -21,9 +22,9 @@ public class SearchController {
 
     @RequestMapping("searchByKeyword")
     @ResponseBody
-    public ResultBean searchByKeyword(@RequestParam String keyword){
-        ResultBean resultBean = searchService.selectByKeyword(keyword);
-        return resultBean;
+    public TProductSearchVo searchByKeyword(@RequestParam String keyword,@RequestParam Integer pageNo){
+        TProductSearchVo tProductSearchVo = searchService.selectByKeyword(keyword,pageNo);
+        return tProductSearchVo;
     }
 
     @RequestMapping("add")
@@ -35,9 +36,9 @@ public class SearchController {
 
     @RequestMapping("searchAll")
     @ResponseBody
-    public ResultBean searchAll(){
-        ResultBean resultBean = searchService.searchAllFromSolr();
-        return resultBean;
+    public TProductSearchVo searchAll(@RequestParam Integer pageNo){
+        TProductSearchVo tProductSearchVo = searchService.searchAllFromSolr(pageNo);
+        return tProductSearchVo;
     }
 
 }

@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/qf1909-shop-service/product-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/product-search-web/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-web/product-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/product-order-service/pom.xml" />
       </list>
     </option>
   </component>
