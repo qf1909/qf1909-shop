@@ -1,4 +1,5 @@
 com\qf\dto\ProductSearchDTO.class
+com\qf\vo\ProductCartVO.class
 com\qf\vo\CartItemVO.class
 com\qf\bean\ResultBean.class
 com\qf\vo\SearchVO.class

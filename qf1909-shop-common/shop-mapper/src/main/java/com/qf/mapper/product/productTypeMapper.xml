@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qf.mapper.product.ProductMapper">
+<mapper namespace="com.qf.mapper.product.ProductTypeMapper">
     <resultMap id="BaseResultMap" type="com.qf.entity.TProductType">
         <id column="cid" jdbcType="BIGINT" property="cid" />
         <result column="cname" jdbcType="VARCHAR" property="cname" />
@@ -22,4 +22,6 @@
         from t_product_type
         where flag = 1
     </select>
+
+
 </mapper>

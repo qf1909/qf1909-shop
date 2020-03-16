@@ -1,5 +1,6 @@
 package com.qf.interceptor;
 
+import com.alibaba.fastjson.JSON;
 import com.qf.constant.CookieConstant;
 import com.qf.constant.RedisConstant;
 import com.qf.entity.TUser;
@@ -30,9 +31,10 @@ public class AuthInterceptor implements HandlerInterceptor {
                     Object o = redisTemplate.opsForValue().get(redisKey);
                     if(o!=null){
                         //用户已登录
-                        TUser tUser = (TUser) o;
+                        TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+//                        TUser tUser = (TUser) o;
                         //存入到request域中
-                        request.setAttribute("user",tUser);
+                        request.setAttribute("user",user);
                         return true;
                     }
                 }

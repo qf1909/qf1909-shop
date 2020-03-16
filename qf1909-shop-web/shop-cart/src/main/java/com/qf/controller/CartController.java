@@ -1,16 +1,13 @@
 package com.qf.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.qf.bean.ResultBean;
 import com.qf.constant.CookieConstant;
 import com.qf.entity.TUser;
 import com.qf.service.ICartService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -42,7 +39,8 @@ public class CartController {
 
         Object o = request.getAttribute("user");
         if (o != null){   //已登录状态   (会经过拦截器  将user对象存放到request域中)
-            TUser user = (TUser) o;
+//            TUser user = (TUser) o;
+            TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
             Long id = user.getId();
             //调用服务 --添加商品到购物车
             ResultBean resultBean = cartService.addProductToCart(id.toString(),productId, count);
@@ -61,8 +59,83 @@ public class CartController {
         ResultBean resultBean = cartService.addProductToCart(uuid, productId, count);
         return resultBean;
     }
+
     //清空购物车
+        @RequestMapping("cleanCart")
+        @ResponseBody
+        public  ResultBean  cleanCart(@CookieValue(name = CookieConstant.USER_CART,required = false)String  uuid,HttpServletRequest request,
+                                      HttpServletResponse response){
+            Object o = request.getAttribute("user");
+            //登录状态
+            if (o!=null){
+                TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+//                TUser user = (TUser) o;
+                Long id = user.getId();
+                ResultBean resultBean = cartService.cleanCart(id.toString());
+                return  resultBean;
+            }
+            //未登录状态
+            if (uuid !=null &&! "".equals(uuid)){
+                Cookie cookie =new Cookie(CookieConstant.USER_CART,"");
+                cookie.setHttpOnly(true);
+                cookie.setPath("/");
+                cookie.setMaxAge(0);
+                response.addCookie(cookie);
+                ResultBean resultBean = cartService.cleanCart(uuid);
+                return resultBean;
+            }
+            return  ResultBean.error("清空购物车失败!");
+        }
     //更新购物车
+    @RequestMapping("updateCart/{productId}/{count}")
+    @ResponseBody
+    public  ResultBean updateCart(@CookieValue(name = CookieConstant.USER_CART,required = false) String uuid,
+                                  @PathVariable Long productId,@PathVariable int count,
+                                   HttpServletRequest request){
+        Object o = request.getAttribute("user");
+        if (o != null){
+            TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+            Long id = user.getId();
+            return cartService.updateCart(id.toString(),productId,count);
+        }
+        return cartService.updateCart(uuid,productId,count);
+    }
+
+
     //查看购物车
+    @RequestMapping("showCart")
+    @ResponseBody
+    public  ResultBean  showCart(@CookieValue(name = CookieConstant.USER_CART,required = false) String uuid,
+                                 HttpServletRequest request){
+        Object o = request.getAttribute("user");
+        if (o != null){
+            TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+            Long id = user.getId();
+            ResultBean resultBean = cartService.showCart(id.toString());
+            return  resultBean;
+        }
+        ResultBean resultBean = cartService.showCart(uuid);
+        return resultBean;
+    }
+
     //合并购物车
+    @RequestMapping("mergeCart")
+    @ResponseBody
+    public  ResultBean mergeCart(@CookieValue(name = CookieConstant.USER_CART ,required = false) String uuid,
+                                 HttpServletRequest request,HttpServletResponse response){
+        String userId = null;
+        Object o = request.getAttribute("user");
+        if (o != null){
+            TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+            userId = Long.valueOf(user.getId()).toString();
+        }
+        //清空cookie
+        Cookie cookie = new Cookie(CookieConstant.USER_CART,"");
+        cookie.setMaxAge(0);
+        cookie.setPath("/");
+        cookie.setHttpOnly(true);
+        response.addCookie(cookie);
+        ResultBean resultBean = cartService.mergeCart(uuid, userId);
+        return  resultBean;
+    }
 }

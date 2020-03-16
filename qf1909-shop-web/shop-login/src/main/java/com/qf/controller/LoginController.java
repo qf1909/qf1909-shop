@@ -1,10 +1,13 @@
 package com.qf.controller;
 
 
+import com.alibaba.fastjson.JSON;
 import com.qf.bean.ResultBean;
 import com.qf.constant.CookieConstant;
 import com.qf.constant.RedisConstant;
+import com.qf.entity.TUser;
 import com.qf.service.ILoginService;
+import com.qf.util.HttpClientUtils;
 import com.qf.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -33,7 +36,8 @@ public class LoginController {
 
 
     @RequestMapping("checkLogin")
-    public String login(@RequestParam String uname, @RequestParam String password, HttpServletResponse response){
+    public String login(@RequestParam String uname, @RequestParam String password, HttpServletResponse response,
+                        @CookieValue(name = CookieConstant.USER_CART,required = false) String cartId){
         ResultBean resultBean = loginService.checkLogin(uname, password);
         if (resultBean.getErrno()==0){
             String uuid = UUID.randomUUID().toString();
@@ -47,6 +51,22 @@ public class LoginController {
             cookie.setPath("/"); //路径
             cookie.setHttpOnly(true); //仅客户端可见
             response.addCookie(cookie);
+
+            //合并购物车的请求
+            //由HttpClient 发送请求 不会自动携带cookie 所以手写cookie
+//            Object data = resultBean.getData();
+//            TUser user = JSON.parseObject(JSON.toJSONString(data), TUser.class);
+//            String userId = Long.valueOf(user.getId()).toString();
+            StringBuilder sb = new StringBuilder();
+            //拼接cookie
+            //未登录状态    只有  是否有购物车的uuid
+            sb.append(CookieConstant.USER_CART);
+            sb.append("=");
+            sb.append(cartId);
+            sb.append(";");
+            //发送请求
+            String url = "http://localhost:9085/mergeCart";
+            HttpClientUtils.doGet(url,sb.toString());
             return "redirect:http://localhost:9082/index";
         }
         return "redirect:login";

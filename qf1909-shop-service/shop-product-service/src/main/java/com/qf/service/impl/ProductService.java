@@ -1,10 +1,9 @@
 package com.qf.service.impl;
 
-import com.qf.constant.RabbitConstant;
 import com.qf.constant.RedisConstant;
 import com.qf.constant.StringConstant;
 import com.qf.entity.TProductType;
-import com.qf.mapper.product.ProductMapper;
+import com.qf.mapper.product.ProductTypeMapper;
 import com.qf.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -21,7 +20,7 @@ public class ProductService implements IProductService {
     private RedisTemplate redisTemplate;
 
     @Autowired
-    private ProductMapper productMapper;
+    private ProductTypeMapper productTypeMapper;
 
     @Override
     public List<TProductType> queryProductType() {
@@ -36,7 +35,7 @@ public class ProductService implements IProductService {
                     //设置超时时间
                     redisTemplate.expire(StringConstant.redis_types_lock,5,TimeUnit.MINUTES);
                     //查询数据
-                    typeList = productMapper.queryProductType();
+                    typeList = productTypeMapper.queryProductType();
                     //将数据存放到redis中
                     redisTemplate.opsForValue().set(RedisConstant.PRODUCT_TYPE,typeList);
                 } catch (Exception e) {
