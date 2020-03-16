@@ -1,6 +1,7 @@
 package com.qf.config;
 
 
+import com.qf.constant.RabbitConstant;
 import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
@@ -13,27 +14,27 @@ public class OrderProvicerConfig {
 
     @Bean
     public FanoutExchange getExchange(){
-        return new  FanoutExchange("shop_order_exchange",true,false,null);
+        return new  FanoutExchange(RabbitConstant.ORDER_EXCHANGE,true,false,null);
     }
 
     @Bean
     public Queue getQueue(){
-        return new Queue("order_queue");
+        return new Queue(RabbitConstant.ORDER_DESC_QUEUE);
     }
-
-    /**
-     * f发布订阅
-     * @return
-     */
-    @Bean
-    public DirectExchange getDirectExchange(){
-        return new  DirectExchange("my_direct_exchange");
-    }
-
-    @Bean
-    public Queue getQueue1(){
-        return new Queue("my_direct_queue");
-    }
+//
+//    /**
+//     * f发布订阅
+//     * @return
+//     */
+//    @Bean
+//    public DirectExchange getDirectExchange(){
+//        return new  DirectExchange(RabbitConstant.ORDER_EXCHANGE);
+//    }
+//
+//    @Bean
+//    public Queue getQueue1(){
+//        return new Queue("my_direct_queue");
+//    }
 
 
 

@@ -7,25 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shop-pay" />
-        <module name="qf1909-shop-server" />
-        <module name="order-service" />
+        <module name="pay-service" />
+        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
-        <module name="pay-service" />
+        <module name="order-service" />
         <module name="user-provider" />
+        <module name="order-rabbitmq-consumer" />
         <module name="shop-product" />
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="shop-basic" />
+        <module name="qf1909-shop-server" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
-        <module name="shop-search" />
+        <module name="shop-basic" />
         <module name="shop-index" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="order-rabbitmq-consumer" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="pay-service" target="1.8" />
       <module name="product-search" target="1.8" />
@@ -52,6 +54,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="order-rabbitmq-consumer" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="pay-service" options="-parameters" />
       <module name="product-search" options="-parameters" />

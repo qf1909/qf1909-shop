@@ -2,6 +2,7 @@ package com.qf.service.serviceImpl;
 
 import com.qf.bean.CartInfo;
 import com.qf.bean.Order;
+import com.qf.constant.RabbitConstant;
 import com.qf.entity.TOrder;
 import com.qf.entity.TOrderdetail;
 import com.qf.entity.TProduct;
@@ -16,9 +17,10 @@ import org.springframework.ui.ModelMap;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.UUID;
 
 @Service
-public class OrderServiceImpl implements IOrderService {
+public class OrderServiceImpl {
 
     @Autowired
     private RedisTemplate redisTemplate;
@@ -33,15 +35,17 @@ public class OrderServiceImpl implements IOrderService {
      * @return
      * @throws Exception
      */
-    public String insertAndPay(Order e, ModelMap model, Object user) {
+    public String insertAndPay( ) {
 
-        String userId ="user:546";
-        if (user == null) {
-            return "当前用户没有登录";
-        }
+        //TODO 获取用户名
+        UUID uuid = (UUID) redisTemplate.opsForValue().get("user_uuid");
+        String userId ="xiaoming";
+//        if (user == null) {
+//            return "当前用户没有登录";
+//        }
 
         //TODO 从Redis中获取用户购买的商品列表
-        CartInfo cartInfo = (CartInfo) redisTemplate.opsForValue().get("order");
+        CartInfo cartInfo = (CartInfo) redisTemplate.opsForValue().get("cartinfo"+uuid);
 
         if (cartInfo == null || cartInfo.getProductList().size() == 0) {
             throw new NullPointerException("购物车中没有可支付的商品!");
@@ -52,11 +56,12 @@ public class OrderServiceImpl implements IOrderService {
 
         //创建订单
         TOrder order = new TOrder();
-        order.setAccount(user.toString());  //用户名
+        order.setAccount(userId);  //用户名
         order.setQuantity(cartInfo.getProductList().size()); //商品数量
         order.setStatus(Order.order_status_init);    //订单状态
         order.setPaystatus(Order.order_paystatus_n);  //支付状态
-        order.setOtherRequirement(e.getOtherRequirement());  //附加要求
+//        order.setOtherRequirement(e.getOtherRequirement());  //附加要求
+        order.setOtherRequirement("1232");
 
         //创建订单明细
         LinkedList<TOrderdetail> orderDetailList = new LinkedList<>();
@@ -89,7 +94,7 @@ public class OrderServiceImpl implements IOrderService {
         list.add(userId);
         list.add(order);
         list.add(orderDetailList);
-        rabbitTemplate.convertAndSend("shop_order_exchange","",list);
+        rabbitTemplate.convertAndSend(RabbitConstant.ORDER_EXCHANGE,"",list);
     //Order orderData=orderService.createOrder(order, orderdetailList);
 
     //TODO 清空购物车

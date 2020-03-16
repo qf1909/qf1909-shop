@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: pay-server
+    name: order-server
   datasource:
     url: jdbc:mysql://47.105.34.102/qf-v6
     username: root
@@ -17,7 +17,7 @@ spring:
     port: 5672
     username: rabbit
     password: 123456
-    virtual-host: 145
+    virtual-host: qf1909
 
 server:
   port: 9086

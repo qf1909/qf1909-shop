@@ -1,9 +1,10 @@
 package com.qf.entity;
 
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class TOrder {
+public class TOrder implements Serializable {
   private static final long serialVersionUID = 1L;
   private Integer id;
   private String account;

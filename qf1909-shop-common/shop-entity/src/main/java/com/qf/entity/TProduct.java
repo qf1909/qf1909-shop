@@ -1,9 +1,10 @@
 package com.qf.entity;
 
 
-import java.sql.Timestamp;
+import java.io.Serializable;
 
-public class TProduct {
+
+public class TProduct implements Serializable {
 
   private Integer pid;
   private String pname;
@@ -13,11 +14,25 @@ public class TProduct {
   private Integer status;
   private String pimage;
   private Integer flag;
-  private java.sql.Timestamp createTime;
-  private java.sql.Timestamp updateTime;
+  private String createTime;
+  private String updateTime;
   private Integer createUser;
   private Integer updateUser;
 
+  public TProduct(Integer pid, String pname, double price, double salePrice, Integer typeId, Integer status, String pimage, Integer flag, String createTime, String updateTime, Integer createUser, Integer updateUser) {
+    this.pid = pid;
+    this.pname = pname;
+    this.price = price;
+    this.salePrice = salePrice;
+    this.typeId = typeId;
+    this.status = status;
+    this.pimage = pimage;
+    this.flag = flag;
+    this.createTime = createTime;
+    this.updateTime = updateTime;
+    this.createUser = createUser;
+    this.updateUser = updateUser;
+  }
 
   public Integer getPid() {
     return pid;
@@ -83,19 +98,19 @@ public class TProduct {
     this.flag = flag;
   }
 
-  public Timestamp getCreateTime() {
+  public String getCreateTime() {
     return createTime;
   }
 
-  public void setCreateTime(Timestamp createTime) {
+  public void setCreateTime(String createTime) {
     this.createTime = createTime;
   }
 
-  public Timestamp getUpdateTime() {
+  public String getUpdateTime() {
     return updateTime;
   }
 
-  public void setUpdateTime(Timestamp updateTime) {
+  public void setUpdateTime(String updateTime) {
     this.updateTime = updateTime;
   }
 

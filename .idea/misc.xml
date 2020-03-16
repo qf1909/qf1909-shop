@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/qf1909-shop-web/shop-sso/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/pay-service/pom.xml" />
         <option value="$PROJECT_DIR$/qf1909-shop-service/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qf1909-shop-service/order-rabbitmq-consumer/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,7 +1,9 @@
 package com.qf.entity;
 
 
-public class TOrderdetail {
+import java.io.Serializable;
+
+public class TOrderdetail implements Serializable {
 
   private Integer id;
   private Integer orderId;
