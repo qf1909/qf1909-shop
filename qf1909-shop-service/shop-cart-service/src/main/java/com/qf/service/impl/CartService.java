@@ -70,7 +70,6 @@ public class CartService implements ICartService {
     }
 
 
-
     //清空购物车
     @Override
     public ResultBean cleanCart(String uuid) {
@@ -122,7 +121,7 @@ public class CartService implements ICartService {
                      //redis中没有就去数据库查询
                      Long productId = cartItemVO.getProductId();
                      product = productCartMapper.queryProductDetailOfCart(productId);
-                     redisTemplate.opsForValue().set(redisKey,product);
+                     redisTemplate.opsForValue().set(pRedisKey,product);
                  }
                  ProductCartVO productCartVO = new ProductCartVO();
                  productCartVO.setCount(cartItemVO.getCount());
@@ -135,7 +134,7 @@ public class CartService implements ICartService {
              Collections.sort(productCartList, new Comparator<ProductCartVO>() {
                  @Override
                  public int compare(ProductCartVO o1, ProductCartVO o2) {
-                     return (int) (o1.getUpdateTime().getTime()-o2.getUpdateTime().getTime());
+                     return (int) (o2.getUpdateTime().getTime()-o1.getUpdateTime().getTime());
                  }
              });
              return  ResultBean.success(productCartList);
@@ -161,12 +160,13 @@ public class CartService implements ICartService {
         //未登录没有购物车
         if (noLogin ==null){
             redisTemplate.delete(noLoginRedisKey);
-            return  ResultBean.success("合并成功");
+            return  ResultBean.success("无需合并");
         }
         //未登录有购物车,登录状态没有购物车
         if (login ==null){
             redisTemplate.opsForValue().set(loginRedisKey,noLogin);
             redisTemplate.delete(noLoginRedisKey);
+            System.out.println( "合并成功!");
             return  ResultBean.success(noLogin,"合并成功!");
         }
         //未登录有购物车,登录有购物车

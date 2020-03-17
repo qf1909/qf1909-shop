@@ -1,8 +1,5 @@
-
 server:
-  port: 9084
-
-
+  port: 9087
 spring:
   redis:
     host: 47.105.34.102
@@ -17,3 +14,11 @@ spring:
     username: rabbit
     password: 123456
     virtual-host: qf1909
+  application:
+    name: shop-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    eurekaServerReadTimeoutSeconds: 10
+    eurekaServerConnectTimeoutSeconds: 10

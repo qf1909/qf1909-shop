@@ -1,31 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:th="http://www.thymeleaf.org">
 
 	<head>
 		<base href="/"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 		<title>购物车页面</title>
-
 		<link href="/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
 		<link href="/basic/css/demo.css" rel="stylesheet" type="text/css" />
 		<link href="/css/cartstyle.css" rel="stylesheet" type="text/css" />
 		<link href="/css/optstyle.css" rel="stylesheet" type="text/css" />
-
 		<script type="text/javascript" src="/js/jquery.js"></script>
-
 	</head>
-
 	<body>
-
 		<!--顶部导航条 -->
 		<div class="am-container header">
 			<ul class="message-l">
 				<div class="topMessage">
-					<div class="menu-hd">
-						<a href="#" target="_top" class="h">亲，请登录</a>
-						<a href="#" target="_top">免费注册</a>
+					<div class="menu-hd"  th:if="${user eq null}">
+						<a href="http://loaclhost:9083/login" target="_top" class="h">亲，请登录</a>
+						<a href="http://loaclhost:9083/register" target="_top">免费注册</a>
+					</div>
+					<div class="menu-hd"  th:if="${user ne null}">
+						<a href="#" target="_top" class="h" th:text="'欢迎你,'+${user.uname}"></a>
+						 <a href="http://localhost:9082/logout" target="_top">注销</a>
 					</div>
 				</div>
 			</ul>
@@ -172,7 +170,7 @@
 								<ul class="item-content clearfix">
 									<li class="td td-chk">
 										<div class="cart-checkbox ">
-											<input class="check" id="J_CheckBox_170037950254" name="items[]" value="170037950254" type="checkbox">
+											<input class="check" id="J_CheckBox_170037950253" name="items[]" value="170037950254" type="checkbox">
 											<label for="J_CheckBox_170037950254"></label>
 										</div>
 									</li>
@@ -349,7 +347,13 @@
 							<strong class="price">¥<em id="J_Total">0.00</em></strong>
 						</div>
 						<div class="btn-area">
-							<a href="../../../../../qf-v6-order/src/main/resources/templates/pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
+							<form action="/redirect" id="redirectOrder">
+								<input type="hidden" id="userinfo"  value="">
+								<input type="hidden" id="cartinfo"  value="">
+							</form>
+<!--							<a href="../../../../../qf-v6-order/src/main/resources/templates/pay.html" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">-->
+<!--							<a href="" th:onclick="'javascript:placeOrder(\''+${user}+'\',\''+${cart}+'\')'" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">-->
+							<a href=""  onclick= "placeOrder()" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算">
 								<span>结&nbsp;算</span></a>
 						</div>
 					</div>
@@ -383,7 +387,7 @@
 
 			<!--操作页面-->
 
-			<div class="theme-popover-mask"></div>
+			<div class="theme-popover-mask">
 
 			<div class="theme-popover">
 				<div class="theme-span"></div>
@@ -439,6 +443,7 @@
 					</form>
 				</div>
 			</div>
+			</div>
 		<!--引导 -->
 		<div class="navCir">
 			<li><a href="home.html"><i class="am-icon-home "></i>首页</a></li>
@@ -446,6 +451,45 @@
 			<li class="active"><a href="shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>
 			<li><a href="person/index.html"><i class="am-icon-user"></i>我的</a></li>
 		</div>
+
+<!--		<input type="hidden" id="pickListModels"  th:value='${cart}'>-->
+
+
+	<script src="js/jquery.js"></script>
+<!--   thymeleaf获取model值方式 可获取对象 集合-->
+		<script th:inline="javascript">
+			function placeOrder() {
+				var user = [[${user}]];
+				var cart= [[${cart}]];
+				// console.log(cart);
+				var totalPrice = 0;
+				cart.forEach(function (item,index,cart) {
+					//	item  当前元素  index 当前元素索引  //cart  集合本身
+					var product = item.product;
+					// console.log(product);
+					var count = item.count;
+					// console.log(count);
+					var price = item.totalPrice;
+					// console.log(price);
+					var updateTime = item.updateTime;
+					// console.log(updateTime);
+					totalPrice = totalPrice+price;
+				})
+				console.log(totalPrice);
+				console.log(user);
+				console.log(cart);
+				$("#userinfo").attr("value",user);
+				$("#cartinfo").attr("value",cart);
+				$("#redirectOrder").submit();
+			}
+		</script>
+
+<!--	model传值  只能获取非对象  集合类型	-->
+<!--		<script>-->
+<!--			var data =  $("#pickListModels").val();-->
+<!--			console.log(data);-->
+<!--			console.log("222");-->
+<!--		</script>-->
 	</body>
 
 </html>

@@ -1,11 +1,13 @@
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\HttpClientUtils.java
-F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo\SearchVO.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\RedisConstant.java
-F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\StringConstant.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo\CartItemVO.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\bean\ResultBean.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\dto\ProductSearchDTO.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\CookieConstant.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\dto\EmailMessageDTO.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo\ProductCartVO.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\SpringSecurityUtil.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo\SearchVO.java
+F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\StringConstant.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\StringUtil.java
 F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\constant\RabbitConstant.java
-F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\util\SpringSecurityUtil.java

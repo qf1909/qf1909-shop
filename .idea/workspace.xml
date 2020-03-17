@@ -3,33 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/product/ProductTypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/product/productMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/src/main/java/com/qf/mapper/product/productTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/classes/com/qf/mapper/product/productMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-basic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/ShopCartServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/ShopCartServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/controller/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/service/ICartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/controller/service/impl/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/service/impl/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-product-service/src/main/java/com/qf/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-product-service/src/main/java/com/qf/service/impl/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/java/com/qf/UserProviderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/user-provider/src/test/java/com/qf/UserProviderApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-common/shop-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/service/impl/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/java/com/qf/service/impl/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-cart-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-code-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-send-email-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-register-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-service/shop-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-service/shop-user-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf/service/ICartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/resources/templates/shopcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/resources/templates/shopcart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-index/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/java/com/qf/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-login/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/ShopOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/ShopOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/java/com/qf/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-pay/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/java/com/qf/ShopProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/java/com/qf/ShopProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-product/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qf1909-shop-web/shop-search/src/main/resources/application.yml" afterDir="false" />
     </list>
     <list id="e6a32e30-e97e-4419-93e7-842d190e5eab" name="first construction" comment="first construction" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,7 +125,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-web/shop-cart/src/main/java/com/qf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qf1909-shop-web/shop-order/src/main/resources/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -134,19 +135,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-mapper\src\main\java\com\qf\mapper\user" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\templates" />
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-product\src\main\resources\static" />
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-cart\src\main\java\com\qf" />
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo" />
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-cart\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qf.service" />
       <recent name="com.qf.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-cart\src\main\java\com\qf" />
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\vo" />
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-cart\src\main\resources\static" />
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-cart\src\main\resources\templates" />
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-login\src\main\java\com\qf\config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-mapper\src\main\java\com\qf\mapper\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,22 +296,27 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.2807377" />
+        <option name="contentProportion" value="0.21994536" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@283fde22" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c0c983fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@283fde22" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@17a68eb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c0c983fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@10f000d3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@283fde22" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@67a3423d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c0c983fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@32e98085" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c0c983fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ef45963" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -345,6 +351,8 @@
       <workItem from="1584250258785" duration="16334000" />
       <workItem from="1584330834796" duration="808000" />
       <workItem from="1584331972805" duration="20138000" />
+      <workItem from="1584354515258" duration="11998000" />
+      <workItem from="1584417725809" duration="28257000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>
@@ -458,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584271606140</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="shop 3-16">
+      <created>1584354623422</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584354623422</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +524,8 @@
     <MESSAGE value="shop 3-13" />
     <MESSAGE value="shop 3-14" />
     <MESSAGE value="shop 3-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="shop 3-15" />
+    <MESSAGE value="shop 3-16" />
+    <option name="LAST_COMMIT_MESSAGE" value="shop 3-16" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

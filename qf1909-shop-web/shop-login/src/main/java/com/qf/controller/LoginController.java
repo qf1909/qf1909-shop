@@ -54,9 +54,6 @@ public class LoginController {
 
             //合并购物车的请求
             //由HttpClient 发送请求 不会自动携带cookie 所以手写cookie
-//            Object data = resultBean.getData();
-//            TUser user = JSON.parseObject(JSON.toJSONString(data), TUser.class);
-//            String userId = Long.valueOf(user.getId()).toString();
             StringBuilder sb = new StringBuilder();
             //拼接cookie
             //未登录状态    只有  是否有购物车的uuid
@@ -64,6 +61,10 @@ public class LoginController {
             sb.append("=");
             sb.append(cartId);
             sb.append(";");
+            //如果已经登录了，那么cookie里就会有这个user_login的uuid
+            sb.append(CookieConstant.USER_LOGIN);
+            sb.append("=");
+            sb.append(uuid);
             //发送请求
             String url = "http://localhost:9085/mergeCart";
             HttpClientUtils.doGet(url,sb.toString());

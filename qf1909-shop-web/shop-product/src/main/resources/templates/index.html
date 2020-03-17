@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +65,7 @@
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
-                    <li th:each="num:${pageInfo.navigatepageNums}"><a th:href="|/product/page/${num}/${pageInfo.pageSize}|"><span th:text="${num}"></span></a></li>
+<!--                    <li th:each="num:${pageInfo.navigatepageNums}"><a th:href="|/product/page/${num}/${pageInfo.pageSize}|"><span th:text="${num}"></span></a></li>-->
                     <li>
                         <a href="#" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>

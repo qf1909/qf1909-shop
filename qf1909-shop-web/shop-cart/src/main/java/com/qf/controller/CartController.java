@@ -5,13 +5,17 @@ import com.qf.bean.ResultBean;
 import com.qf.constant.CookieConstant;
 import com.qf.entity.TUser;
 import com.qf.service.ICartService;
+import com.qf.vo.ProductCartVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 import java.util.UUID;
 
 @Controller
@@ -51,9 +55,8 @@ public class CartController {
         if (uuid ==null || "".equals(uuid)){
            uuid = UUID.randomUUID().toString();
             Cookie cookie =new Cookie(CookieConstant.USER_CART,uuid);
-            cookie.setMaxAge(30*60);
+//            cookie.setMaxAge(30*60);
             cookie.setPath("/");
-            cookie.setHttpOnly(true);
             response.addCookie(cookie);
         }
         ResultBean resultBean = cartService.addProductToCart(uuid, productId, count);
@@ -69,7 +72,6 @@ public class CartController {
             //登录状态
             if (o!=null){
                 TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
-//                TUser user = (TUser) o;
                 Long id = user.getId();
                 ResultBean resultBean = cartService.cleanCart(id.toString());
                 return  resultBean;
@@ -77,7 +79,6 @@ public class CartController {
             //未登录状态
             if (uuid !=null &&! "".equals(uuid)){
                 Cookie cookie =new Cookie(CookieConstant.USER_CART,"");
-                cookie.setHttpOnly(true);
                 cookie.setPath("/");
                 cookie.setMaxAge(0);
                 response.addCookie(cookie);
@@ -104,18 +105,21 @@ public class CartController {
 
     //查看购物车
     @RequestMapping("showCart")
-    @ResponseBody
-    public  ResultBean  showCart(@CookieValue(name = CookieConstant.USER_CART,required = false) String uuid,
-                                 HttpServletRequest request){
+    public  String  showCart(@CookieValue(name = CookieConstant.USER_CART,required = false) String uuid,
+                             HttpServletRequest request, Model model){
         Object o = request.getAttribute("user");
         if (o != null){
             TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
             Long id = user.getId();
             ResultBean resultBean = cartService.showCart(id.toString());
-            return  resultBean;
+            List<ProductCartVO> data = (List<ProductCartVO>) resultBean.getData();
+            model.addAttribute("cart",data);
+            model.addAttribute("user",user);
+            return  "shopcart";
         }
         ResultBean resultBean = cartService.showCart(uuid);
-        return resultBean;
+        model.addAttribute("cart",resultBean.getData());
+        return "shopcart";
     }
 
     //合并购物车
@@ -133,9 +137,15 @@ public class CartController {
         Cookie cookie = new Cookie(CookieConstant.USER_CART,"");
         cookie.setMaxAge(0);
         cookie.setPath("/");
-        cookie.setHttpOnly(true);
         response.addCookie(cookie);
-        ResultBean resultBean = cartService.mergeCart(uuid, userId);
+        ResultBean resultBean = cartService.mergeCart(uuid,userId);
         return  resultBean;
+    }
+    @RequestMapping("redirect")
+    public  String  goOrderConfirm(@RequestBody TUser user, @RequestBody List<ProductCartVO> cart ,RedirectAttributes redirectAttributes){
+        redirectAttributes.addAttribute("user",user);
+        redirectAttributes.addAttribute("cart",cart);
+
+        return "redirect:http://localhost:9087/orderConfirm";
     }
 }
