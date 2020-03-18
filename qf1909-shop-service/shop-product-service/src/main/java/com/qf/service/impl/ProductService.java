@@ -2,7 +2,9 @@ package com.qf.service.impl;
 
 import com.qf.constant.RedisConstant;
 import com.qf.constant.StringConstant;
+import com.qf.entity.TProductStore;
 import com.qf.entity.TProductType;
+import com.qf.mapper.product.ProductStoreMapper;
 import com.qf.mapper.product.ProductTypeMapper;
 import com.qf.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +23,9 @@ public class ProductService implements IProductService {
 
     @Autowired
     private ProductTypeMapper productTypeMapper;
+
+    @Autowired
+    private ProductStoreMapper productStoreMapper;
 
     @Override
     public List<TProductType> queryProductType() {
@@ -57,5 +62,11 @@ public class ProductService implements IProductService {
             }
         }
         return typeList;
+    }
+
+    @Override
+    public void insertStoreToRedis() {
+        List<TProductStore> tProductStores = productStoreMapper.insertStoreToRedis();
+        redisTemplate.opsForValue().set(RedisConstant.PRODUCT_STORE,tProductStores);
     }
 }

@@ -10,6 +10,7 @@ package com.qf.constant;
         String SMS_SEND_QUEUE = "sms_send_queue";
         String EMAIL_TOPIC_EXCHANGE = "email_topic_exchange";
         String EMAIL_SEND_QUEUE = "email_send_queue";
+        String ORDER_ADD_TOPIC_EXCHANGE="order_add_topic_exchange";
     }
 
 

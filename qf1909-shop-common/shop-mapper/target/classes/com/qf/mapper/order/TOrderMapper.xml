@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.TOrderMapper">
+  <resultMap id="BaseResultMap" type="com.qf.pojo.TOrder">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="payType" jdbcType="INTEGER" property="paytype" />
+    <result column="carry" jdbcType="INTEGER" property="carry" />
+    <result column="rebate" jdbcType="DECIMAL" property="rebate" />
+    <result column="createdate" jdbcType="TIMESTAMP" property="createdate" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="refundStatus" jdbcType="VARCHAR" property="refundstatus" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="fee" jdbcType="DECIMAL" property="fee" />
+    <result column="ptotal" jdbcType="DECIMAL" property="ptotal" />
+    <result column="quantity" jdbcType="INTEGER" property="quantity" />
+    <result column="paystatus" jdbcType="VARCHAR" property="paystatus" />
+    <result column="updateAmount" jdbcType="VARCHAR" property="updateamount" />
+    <result column="expressCode" jdbcType="VARCHAR" property="expresscode" />
+    <result column="expressName" jdbcType="VARCHAR" property="expressname" />
+    <result column="otherRequirement" jdbcType="VARCHAR" property="otherrequirement" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="expressNo" jdbcType="VARCHAR" property="expressno" />
+    <result column="expressCompanyName" jdbcType="VARCHAR" property="expresscompanyname" />
+    <result column="lowStocks" jdbcType="VARCHAR" property="lowstocks" />
+    <result column="confirmSendProductRemark" jdbcType="VARCHAR" property="confirmsendproductremark" />
+    <result column="closedComment" jdbcType="VARCHAR" property="closedcomment" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="amountExchangeScore" jdbcType="INTEGER" property="amountexchangescore" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, account, payType, carry, rebate, createdate, status, refundStatus, amount, fee, 
+    ptotal, quantity, paystatus, updateAmount, expressCode, expressName, otherRequirement, 
+    remark, expressNo, expressCompanyName, lowStocks, confirmSendProductRemark, closedComment, 
+    score, amountExchangeScore
+  </sql>
+  <select id="selectByExample" parameterType="com.qf.pojo.TOrderExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_order
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_order
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.qf.pojo.TOrderExample">
+    delete from t_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.qf.pojo.TOrder">
+    insert into t_order (id, account, payType, 
+      carry, rebate, createdate, 
+      status, refundStatus, amount, 
+      fee, ptotal, quantity, 
+      paystatus, updateAmount, expressCode, 
+      expressName, otherRequirement, remark, 
+      expressNo, expressCompanyName, lowStocks, 
+      confirmSendProductRemark, closedComment, 
+      score, amountExchangeScore)
+    values (#{id,jdbcType=INTEGER}, #{account,jdbcType=VARCHAR}, #{paytype,jdbcType=INTEGER}, 
+      #{carry,jdbcType=INTEGER}, #{rebate,jdbcType=DECIMAL}, #{createdate,jdbcType=TIMESTAMP}, 
+      #{status,jdbcType=VARCHAR}, #{refundstatus,jdbcType=VARCHAR}, #{amount,jdbcType=DECIMAL}, 
+      #{fee,jdbcType=DECIMAL}, #{ptotal,jdbcType=DECIMAL}, #{quantity,jdbcType=INTEGER}, 
+      #{paystatus,jdbcType=VARCHAR}, #{updateamount,jdbcType=VARCHAR}, #{expresscode,jdbcType=VARCHAR}, 
+      #{expressname,jdbcType=VARCHAR}, #{otherrequirement,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+      #{expressno,jdbcType=VARCHAR}, #{expresscompanyname,jdbcType=VARCHAR}, #{lowstocks,jdbcType=VARCHAR}, 
+      #{confirmsendproductremark,jdbcType=VARCHAR}, #{closedcomment,jdbcType=VARCHAR}, 
+      #{score,jdbcType=INTEGER}, #{amountexchangescore,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.qf.pojo.TOrder">
+    insert into t_order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="account != null">
+        account,
+      </if>
+      <if test="paytype != null">
+        payType,
+      </if>
+      <if test="carry != null">
+        carry,
+      </if>
+      <if test="rebate != null">
+        rebate,
+      </if>
+      <if test="createdate != null">
+        createdate,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="refundstatus != null">
+        refundStatus,
+      </if>
+      <if test="amount != null">
+        amount,
+      </if>
+      <if test="fee != null">
+        fee,
+      </if>
+      <if test="ptotal != null">
+        ptotal,
+      </if>
+      <if test="quantity != null">
+        quantity,
+      </if>
+      <if test="paystatus != null">
+        paystatus,
+      </if>
+      <if test="updateamount != null">
+        updateAmount,
+      </if>
+      <if test="expresscode != null">
+        expressCode,
+      </if>
+      <if test="expressname != null">
+        expressName,
+      </if>
+      <if test="otherrequirement != null">
+        otherRequirement,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="expressno != null">
+        expressNo,
+      </if>
+      <if test="expresscompanyname != null">
+        expressCompanyName,
+      </if>
+      <if test="lowstocks != null">
+        lowStocks,
+      </if>
+      <if test="confirmsendproductremark != null">
+        confirmSendProductRemark,
+      </if>
+      <if test="closedcomment != null">
+        closedComment,
+      </if>
+      <if test="score != null">
+        score,
+      </if>
+      <if test="amountexchangescore != null">
+        amountExchangeScore,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="account != null">
+        #{account,jdbcType=VARCHAR},
+      </if>
+      <if test="paytype != null">
+        #{paytype,jdbcType=INTEGER},
+      </if>
+      <if test="carry != null">
+        #{carry,jdbcType=INTEGER},
+      </if>
+      <if test="rebate != null">
+        #{rebate,jdbcType=DECIMAL},
+      </if>
+      <if test="createdate != null">
+        #{createdate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="refundstatus != null">
+        #{refundstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="amount != null">
+        #{amount,jdbcType=DECIMAL},
+      </if>
+      <if test="fee != null">
+        #{fee,jdbcType=DECIMAL},
+      </if>
+      <if test="ptotal != null">
+        #{ptotal,jdbcType=DECIMAL},
+      </if>
+      <if test="quantity != null">
+        #{quantity,jdbcType=INTEGER},
+      </if>
+      <if test="paystatus != null">
+        #{paystatus,jdbcType=VARCHAR},
+      </if>
+      <if test="updateamount != null">
+        #{updateamount,jdbcType=VARCHAR},
+      </if>
+      <if test="expresscode != null">
+        #{expresscode,jdbcType=VARCHAR},
+      </if>
+      <if test="expressname != null">
+        #{expressname,jdbcType=VARCHAR},
+      </if>
+      <if test="otherrequirement != null">
+        #{otherrequirement,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="expressno != null">
+        #{expressno,jdbcType=VARCHAR},
+      </if>
+      <if test="expresscompanyname != null">
+        #{expresscompanyname,jdbcType=VARCHAR},
+      </if>
+      <if test="lowstocks != null">
+        #{lowstocks,jdbcType=VARCHAR},
+      </if>
+      <if test="confirmsendproductremark != null">
+        #{confirmsendproductremark,jdbcType=VARCHAR},
+      </if>
+      <if test="closedcomment != null">
+        #{closedcomment,jdbcType=VARCHAR},
+      </if>
+      <if test="score != null">
+        #{score,jdbcType=INTEGER},
+      </if>
+      <if test="amountexchangescore != null">
+        #{amountexchangescore,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.qf.pojo.TOrderExample" resultType="java.lang.Long">
+    select count(*) from t_order
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_order
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.account != null">
+        account = #{record.account,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paytype != null">
+        payType = #{record.paytype,jdbcType=INTEGER},
+      </if>
+      <if test="record.carry != null">
+        carry = #{record.carry,jdbcType=INTEGER},
+      </if>
+      <if test="record.rebate != null">
+        rebate = #{record.rebate,jdbcType=DECIMAL},
+      </if>
+      <if test="record.createdate != null">
+        createdate = #{record.createdate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.status != null">
+        status = #{record.status,jdbcType=VARCHAR},
+      </if>
+      <if test="record.refundstatus != null">
+        refundStatus = #{record.refundstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.amount != null">
+        amount = #{record.amount,jdbcType=DECIMAL},
+      </if>
+      <if test="record.fee != null">
+        fee = #{record.fee,jdbcType=DECIMAL},
+      </if>
+      <if test="record.ptotal != null">
+        ptotal = #{record.ptotal,jdbcType=DECIMAL},
+      </if>
+      <if test="record.quantity != null">
+        quantity = #{record.quantity,jdbcType=INTEGER},
+      </if>
+      <if test="record.paystatus != null">
+        paystatus = #{record.paystatus,jdbcType=VARCHAR},
+      </if>
+      <if test="record.updateamount != null">
+        updateAmount = #{record.updateamount,jdbcType=VARCHAR},
+      </if>
+      <if test="record.expresscode != null">
+        expressCode = #{record.expresscode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.expressname != null">
+        expressName = #{record.expressname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.otherrequirement != null">
+        otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.expressno != null">
+        expressNo = #{record.expressno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.expresscompanyname != null">
+        expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lowstocks != null">
+        lowStocks = #{record.lowstocks,jdbcType=VARCHAR},
+      </if>
+      <if test="record.confirmsendproductremark != null">
+        confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.closedcomment != null">
+        closedComment = #{record.closedcomment,jdbcType=VARCHAR},
+      </if>
+      <if test="record.score != null">
+        score = #{record.score,jdbcType=INTEGER},
+      </if>
+      <if test="record.amountexchangescore != null">
+        amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_order
+    set id = #{record.id,jdbcType=INTEGER},
+      account = #{record.account,jdbcType=VARCHAR},
+      payType = #{record.paytype,jdbcType=INTEGER},
+      carry = #{record.carry,jdbcType=INTEGER},
+      rebate = #{record.rebate,jdbcType=DECIMAL},
+      createdate = #{record.createdate,jdbcType=TIMESTAMP},
+      status = #{record.status,jdbcType=VARCHAR},
+      refundStatus = #{record.refundstatus,jdbcType=VARCHAR},
+      amount = #{record.amount,jdbcType=DECIMAL},
+      fee = #{record.fee,jdbcType=DECIMAL},
+      ptotal = #{record.ptotal,jdbcType=DECIMAL},
+      quantity = #{record.quantity,jdbcType=INTEGER},
+      paystatus = #{record.paystatus,jdbcType=VARCHAR},
+      updateAmount = #{record.updateamount,jdbcType=VARCHAR},
+      expressCode = #{record.expresscode,jdbcType=VARCHAR},
+      expressName = #{record.expressname,jdbcType=VARCHAR},
+      otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},
+      remark = #{record.remark,jdbcType=VARCHAR},
+      expressNo = #{record.expressno,jdbcType=VARCHAR},
+      expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},
+      lowStocks = #{record.lowstocks,jdbcType=VARCHAR},
+      confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},
+      closedComment = #{record.closedcomment,jdbcType=VARCHAR},
+      score = #{record.score,jdbcType=INTEGER},
+      amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.qf.pojo.TOrder">
+    update t_order
+    <set>
+      <if test="account != null">
+        account = #{account,jdbcType=VARCHAR},
+      </if>
+      <if test="paytype != null">
+        payType = #{paytype,jdbcType=INTEGER},
+      </if>
+      <if test="carry != null">
+        carry = #{carry,jdbcType=INTEGER},
+      </if>
+      <if test="rebate != null">
+        rebate = #{rebate,jdbcType=DECIMAL},
+      </if>
+      <if test="createdate != null">
+        createdate = #{createdate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="refundstatus != null">
+        refundStatus = #{refundstatus,jdbcType=VARCHAR},
+      </if>
+      <if test="amount != null">
+        amount = #{amount,jdbcType=DECIMAL},
+      </if>
+      <if test="fee != null">
+        fee = #{fee,jdbcType=DECIMAL},
+      </if>
+      <if test="ptotal != null">
+        ptotal = #{ptotal,jdbcType=DECIMAL},
+      </if>
+      <if test="quantity != null">
+        quantity = #{quantity,jdbcType=INTEGER},
+      </if>
+      <if test="paystatus != null">
+        paystatus = #{paystatus,jdbcType=VARCHAR},
+      </if>
+      <if test="updateamount != null">
+        updateAmount = #{updateamount,jdbcType=VARCHAR},
+      </if>
+      <if test="expresscode != null">
+        expressCode = #{expresscode,jdbcType=VARCHAR},
+      </if>
+      <if test="expressname != null">
+        expressName = #{expressname,jdbcType=VARCHAR},
+      </if>
+      <if test="otherrequirement != null">
+        otherRequirement = #{otherrequirement,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="expressno != null">
+        expressNo = #{expressno,jdbcType=VARCHAR},
+      </if>
+      <if test="expresscompanyname != null">
+        expressCompanyName = #{expresscompanyname,jdbcType=VARCHAR},
+      </if>
+      <if test="lowstocks != null">
+        lowStocks = #{lowstocks,jdbcType=VARCHAR},
+      </if>
+      <if test="confirmsendproductremark != null">
+        confirmSendProductRemark = #{confirmsendproductremark,jdbcType=VARCHAR},
+      </if>
+      <if test="closedcomment != null">
+        closedComment = #{closedcomment,jdbcType=VARCHAR},
+      </if>
+      <if test="score != null">
+        score = #{score,jdbcType=INTEGER},
+      </if>
+      <if test="amountexchangescore != null">
+        amountExchangeScore = #{amountexchangescore,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.qf.pojo.TOrder">
+    update t_order
+    set account = #{account,jdbcType=VARCHAR},
+      payType = #{paytype,jdbcType=INTEGER},
+      carry = #{carry,jdbcType=INTEGER},
+      rebate = #{rebate,jdbcType=DECIMAL},
+      createdate = #{createdate,jdbcType=TIMESTAMP},
+      status = #{status,jdbcType=VARCHAR},
+      refundStatus = #{refundstatus,jdbcType=VARCHAR},
+      amount = #{amount,jdbcType=DECIMAL},
+      fee = #{fee,jdbcType=DECIMAL},
+      ptotal = #{ptotal,jdbcType=DECIMAL},
+      quantity = #{quantity,jdbcType=INTEGER},
+      paystatus = #{paystatus,jdbcType=VARCHAR},
+      updateAmount = #{updateamount,jdbcType=VARCHAR},
+      expressCode = #{expresscode,jdbcType=VARCHAR},
+      expressName = #{expressname,jdbcType=VARCHAR},
+      otherRequirement = #{otherrequirement,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR},
+      expressNo = #{expressno,jdbcType=VARCHAR},
+      expressCompanyName = #{expresscompanyname,jdbcType=VARCHAR},
+      lowStocks = #{lowstocks,jdbcType=VARCHAR},
+      confirmSendProductRemark = #{confirmsendproductremark,jdbcType=VARCHAR},
+      closedComment = #{closedcomment,jdbcType=VARCHAR},
+      score = #{score,jdbcType=INTEGER},
+      amountExchangeScore = #{amountexchangescore,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

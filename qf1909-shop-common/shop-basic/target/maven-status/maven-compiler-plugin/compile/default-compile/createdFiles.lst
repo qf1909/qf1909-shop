@@ -1,8 +1,13 @@
 com\qf\dto\ProductSearchDTO.class
 com\qf\vo\ProductCartVO.class
+com\qf\bean\CartInfo.class
+com\qf\bean\Orderdetail.class
 com\qf\vo\CartItemVO.class
 com\qf\bean\ResultBean.class
+com\qf\bean\Address.class
+com\qf\bean\Order.class
 com\qf\vo\SearchVO.class
 com\qf\util\SpringSecurityUtil.class
 com\qf\constant\RabbitConstant.class
+com\qf\bean\Area.class
 com\qf\dto\EmailMessageDTO.class

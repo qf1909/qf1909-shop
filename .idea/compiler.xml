@@ -10,23 +10,24 @@
         <module name="shop-search-service" />
         <module name="shop-pay" />
         <module name="qf1909-shop-server" />
+        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
-        <module name="shop-cart-service" />
-        <module name="shop-basic" />
-        <module name="shop-register-service" />
+        <module name="qf1909-shop-service" />
+        <module name="shop-product-service" />
         <module name="user-provider" />
         <module name="shop-register-send-email-service" />
         <module name="shop-product" />
         <module name="shop-mapper" />
+        <module name="shop-cart" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
         <module name="shop-login" />
-        <module name="shop-cart" />
+        <module name="shop-cart-service" />
         <module name="shop-register-send-code-service" />
-        <module name="qf1909-shop-service" />
-        <module name="shop-search" />
-        <module name="shop-product-service" />
+        <module name="shop-register-service" />
+        <module name="shop-order-service" />
+        <module name="shop-basic" />
         <module name="shop-index" />
       </profile>
     </annotationProcessing>
@@ -44,6 +45,7 @@
       <module name="shop-login" target="1.8" />
       <module name="shop-mapper" target="1.5" />
       <module name="shop-order" target="1.8" />
+      <module name="shop-order-service" target="1.8" />
       <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-product-service" target="1.8" />
@@ -64,6 +66,7 @@
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
       <module name="shop-order" options="-parameters" />
+      <module name="shop-order-service" options="-parameters" />
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-product-service" options="-parameters" />

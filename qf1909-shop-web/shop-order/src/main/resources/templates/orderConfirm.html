@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html >
 <html xmlns:th="http://www.thymeleaf.org">
 
 	<head>
@@ -444,7 +444,7 @@
 
 									<div id="holyshit269" class="submitOrder">
 										<div class="go-btn-wrap">
-											<a id="J_Go" href="success.html" class="btn-go" tabindex="0" title="点击此按钮，提交订单">提交订单</a>
+											<a id="J_Go" href="/submitOrder"  class="btn-go" tabindex="0" title="点击此按钮，提交订单">提交订单</a>
 										</div>
 									</div>
 									<div class="clear"></div>
@@ -540,8 +540,15 @@
 				</div>
 
 			</div>
-
 			<div class="clear"></div>
+	<script src="js/jquery.js"></script>
+	<script th:inline="javascript">
+		var  orderList = [[${orderList}]];
+		console.log(orderList);
+		// function submitOrder() {
+		//
+		// }
+	</script>
 	</body>
 
 </html>

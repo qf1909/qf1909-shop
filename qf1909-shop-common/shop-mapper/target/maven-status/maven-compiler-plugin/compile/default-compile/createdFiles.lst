@@ -1,4 +1,7 @@
+com\qf\mapper\product\ProductStoreMapper.class
 com\qf\mapper\product\ProductCartMapper.class
-com\qf\mapper\register\RegisterMapper.class
+com\qf\mapper\order\TOrderdetailMapper.class
+com\qf\mapper\order\TOrderMapper.class
 com\qf\mapper\product\ProductTypeMapper.class
 com\qf\mapper\user\TUserMapper.class
+com\qf\mapper\register\RegisterMapper.class

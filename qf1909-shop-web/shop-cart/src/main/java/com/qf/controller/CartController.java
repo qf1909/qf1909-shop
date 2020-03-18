@@ -3,14 +3,16 @@ package com.qf.controller;
 import com.alibaba.fastjson.JSON;
 import com.qf.bean.ResultBean;
 import com.qf.constant.CookieConstant;
+import com.qf.constant.RedisConstant;
 import com.qf.entity.TUser;
 import com.qf.service.ICartService;
+import com.qf.util.StringUtil;
 import com.qf.vo.ProductCartVO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -24,8 +26,8 @@ public class CartController {
     @Autowired
     private ICartService cartService;
 
-//    @Autowired
-//    private RedisTemplate redisTemplate;
+    @Autowired
+    private RedisTemplate redisTemplate;
     //添加商品到购物车
     /*
      * 	1）当前用户没有购物车
@@ -141,11 +143,28 @@ public class CartController {
         ResultBean resultBean = cartService.mergeCart(uuid,userId);
         return  resultBean;
     }
-    @RequestMapping("redirect")
-    public  String  goOrderConfirm(@RequestBody TUser user, @RequestBody List<ProductCartVO> cart ,RedirectAttributes redirectAttributes){
-        redirectAttributes.addAttribute("user",user);
-        redirectAttributes.addAttribute("cart",cart);
 
+
+//    @RequestMapping("redirectOrder")
+//    public ModelAndView goOrderConfirm(String user, String cart){
+//        System.out.println(user);
+//        System.out.println(cart);
+//        ModelAndView modelAndView = new ModelAndView("redirect:http://localhost:9087/orderConfirm");
+//        modelAndView.addObject("user",user);
+//        modelAndView.addObject("cart",cart);
+//        return modelAndView;
+//    }
+
+    @RequestMapping("redirectOrder")
+    public String goOrderConfirm(String user, String cart){
+        System.out.println(user);
+        System.out.println(cart);
+        TUser tUser = JSON.parseObject(user, TUser.class);
+        Long id = tUser.getId();
+        List<ProductCartVO> orderList = JSON.parseArray(cart, ProductCartVO.class);
+        String redisKey = StringUtil.getRedisKey(RedisConstant.PRODUCT_ORDER_PRE, id.toString());
+        redisTemplate.opsForValue().set(redisKey,orderList);
         return "redirect:http://localhost:9087/orderConfirm";
     }
+
 }

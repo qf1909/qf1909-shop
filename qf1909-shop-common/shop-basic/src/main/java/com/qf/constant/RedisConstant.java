@@ -7,4 +7,6 @@ public interface RedisConstant {
     String USER_CART_PRE = "user:cart:";
     String PRODUCT_PRE = "product:";
     String PRODUCT_TYPE="product:type";
+    String PRODUCT_ORDER_PRE="product:order:";
+    String PRODUCT_STORE="product:store";
 }

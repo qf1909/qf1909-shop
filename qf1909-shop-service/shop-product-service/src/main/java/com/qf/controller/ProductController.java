@@ -19,6 +19,7 @@ public class ProductController {
     @ResponseBody
     public List<TProductType> queryProductType(){
         List<TProductType> typeList = productService.queryProductType();
+        productService.insertStoreToRedis();
         return typeList;
     }
 }

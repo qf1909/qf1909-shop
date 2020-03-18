@@ -29,14 +29,14 @@ shuwei-shop
  shop-register-phone-service :8083
  shop-register-email-service :8082
  shop-cart-service :8087
- 
+ shop-order-service :8088
  
  后台 web
 shop-index :9082
 shop-login :9083
 shop-search :9084
 shop-cart :9085
-
+shop-order :9087
 
  
 

@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface IProductService {
     List<TProductType> queryProductType();
+
+    void  insertStoreToRedis();
 }
