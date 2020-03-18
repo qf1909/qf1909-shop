@@ -37,7 +37,7 @@ public class TestController {
         cartInfo.setProductList(list);
         cartInfo.setAmount("1234");
         cartInfo.setAddress(new Address());
-        String key = "cartinfo"+uuid;
+        String key = "cartinfo";
         redisTemplate.opsForValue().set(key,cartInfo);
         return null;
     }

@@ -5,6 +5,6 @@ import org.springframework.ui.ModelMap;
 
 public interface IOrderService {
 
-    String insertAndPay(Order e, ModelMap model, Object user);
+    String insertAndPay(String uuid);
 
 }

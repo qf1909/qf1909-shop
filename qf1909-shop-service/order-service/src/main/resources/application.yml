@@ -22,6 +22,11 @@ spring:
 server:
   port: 9086
 
+ribbon:
+  ReadTimeout: 4000
+  ConnectTimout: 4000
+
+
 eureka:
   client:
     serviceUrl:

@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface IOrderService {
 
     @RequestMapping(value = "creatOrder")
-    String creatOrder(@RequestParam Order e);
+    String creatOrder(@RequestParam String uuid);
 
 }

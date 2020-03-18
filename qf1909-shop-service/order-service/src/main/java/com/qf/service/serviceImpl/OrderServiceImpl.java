@@ -2,22 +2,19 @@ package com.qf.service.serviceImpl;
 
 import com.qf.bean.CartInfo;
 import com.qf.bean.Order;
+import com.qf.constant.CookieConstant;
 import com.qf.constant.RabbitConstant;
 import com.qf.entity.TOrder;
 import com.qf.entity.TOrderdetail;
 import com.qf.entity.TProduct;
 import com.qf.entity.TUser;
-import com.qf.service.IOrderService;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.ModelMap;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class OrderServiceImpl {
@@ -35,10 +32,12 @@ public class OrderServiceImpl {
      * @return
      * @throws Exception
      */
-    public String insertAndPay( ) {
+    public String insertAndPay( String uuid) {
+        TUser user = (TUser)redisTemplate.opsForValue().get(CookieConstant.USER_LOGIN + uuid);
 
         //TODO 获取用户名
-        UUID uuid = (UUID) redisTemplate.opsForValue().get("user_uuid");
+        String username =user.getUname();
+//        UUID uuid = (UUID) redisTemplate.opsForValue().get("user_uuid");
         String userId ="xiaoming";
 //        if (user == null) {
 //            return "当前用户没有登录";
@@ -98,6 +97,6 @@ public class OrderServiceImpl {
     //Order orderData=orderService.createOrder(order, orderdetailList);
 
     //TODO 清空购物车
-        return"redirect:http://localhost:9085/pay?orderId={1}&orderPayId={2}";
+        return"redirect:http://localhost:9085/doPay?userId="+userId;
 }
 }

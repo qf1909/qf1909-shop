@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface IPayService {
 
     @RequestMapping(value = "doPay")
-    void dopay(@RequestParam String oid);
+    void dopay(@RequestParam String uuid);
 
 
 }

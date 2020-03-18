@@ -28,12 +28,10 @@ public class PayController {
 
 
     @RequestMapping("doPay")
-    public String doPay(@RequestParam String oid) {
+    public String doPay(@RequestParam String uuid) {
 
-        payService.dopay(oid);
+        payService.dopay(uuid);
         return null;
-
-
 
     }
 }
