@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/product-order-service/product-order-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/product-order-service/product-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/product-order-web/product-order-web.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/product-order-web/product-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/product-search-service/product-search-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/product-search-service/product-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/product-search-web/product-search-web.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/product-search-web/product-search-web.iml" />

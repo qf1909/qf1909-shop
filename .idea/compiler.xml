@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product-search-service" />
         <module name="shop-pay" />
+        <module name="product-search-service" />
+        <module name="product-search-web" />
         <module name="qf1909-shop-server" />
-        <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
         <module name="user-provider" />
@@ -18,13 +18,12 @@
         <module name="shop-mapper" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
-        <module name="product-search-web" />
+        <module name="shop-basic" />
         <module name="shop-cart" />
         <module name="qf1909-shop-service" />
         <module name="product-order-web" />
-        <module name="shop-basic" />
+        <module name="shop-search" />
         <module name="shop-index" />
-        <module name="product-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
