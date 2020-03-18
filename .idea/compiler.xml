@@ -19,6 +19,7 @@
         <module name="shop-register-send-email-service" />
         <module name="shop-product" />
         <module name="shop-mapper" />
+        <module name="shop-order-subtract-store-service" />
         <module name="shop-cart" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
@@ -29,6 +30,7 @@
         <module name="shop-order-service" />
         <module name="shop-basic" />
         <module name="shop-index" />
+        <module name="shop-order-create-orderdetail-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,7 +47,9 @@
       <module name="shop-login" target="1.8" />
       <module name="shop-mapper" target="1.5" />
       <module name="shop-order" target="1.8" />
+      <module name="shop-order-create-orderdetail-service" target="1.8" />
       <module name="shop-order-service" target="1.8" />
+      <module name="shop-order-subtract-store-service" target="1.8" />
       <module name="shop-pay" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-product-service" target="1.8" />
@@ -66,6 +70,7 @@
       <module name="shop-index" options="-parameters" />
       <module name="shop-login" options="-parameters" />
       <module name="shop-order" options="-parameters" />
+      <module name="shop-order-create-orderdetail-service" options="-parameters" />
       <module name="shop-order-service" options="-parameters" />
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
