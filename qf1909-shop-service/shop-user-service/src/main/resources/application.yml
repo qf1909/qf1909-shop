@@ -5,10 +5,13 @@ mybatis:
 spring:
   application:
     name: shop-user-service
+#  redis:
+#    host: 47.105.34.102
+#    port: 6379
+#    password: password
   redis:
-    host: 47.105.34.102
-    port: 6379
-    password: password
+    cluster:
+      nodes: 47.111.235.107:6379,47.111.235.107:6380,47.111.235.107:6381,47.111.235.107:6382,47.111.235.107:6383,47.111.235.107:6384
   datasource:
     url: jdbc:mysql://47.105.34.102/qf-v6
     driver-class-name: com.mysql.jdbc.Driver

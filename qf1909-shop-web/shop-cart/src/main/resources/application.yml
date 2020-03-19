@@ -1,14 +1,18 @@
 server:
   port: 9085
 
+#spring:
+#  redis:
+#    host: 47.105.34.102
+#    port: 6379
+#    password: password
+#    jedis:
+#      pool:
+#        max-active: 10
 spring:
   redis:
-    host: 47.105.34.102
-    port: 6379
-    password: password
-    jedis:
-      pool:
-        max-active: 10
+    cluster:
+      nodes: 47.111.235.107:6379,47.111.235.107:6380,47.111.235.107:6381,47.111.235.107:6382,47.111.235.107:6383,47.111.235.107:6384
   application:
     name: shop-cart
 eureka:

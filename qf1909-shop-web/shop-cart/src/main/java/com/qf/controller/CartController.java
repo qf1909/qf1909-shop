@@ -104,6 +104,23 @@ public class CartController {
         return cartService.updateCart(uuid,productId,count);
     }
 
+    //查看购物车
+    @RequestMapping("showCartVO")
+    @ResponseBody
+    public  ResultBean  showCartVO(@CookieValue(name = CookieConstant.USER_CART,required = false) String uuid,
+                             HttpServletRequest request){
+        Object o = request.getAttribute("user");
+        if (o != null){
+            TUser user = JSON.parseObject(JSON.toJSONString(o), TUser.class);
+            Long id = user.getId();
+            ResultBean resultBean = cartService.showCart(id.toString());
+            return  resultBean;
+        }
+        ResultBean resultBean = cartService.showCart(uuid);
+        return resultBean;
+    }
+
+
 
     //查看购物车
     @RequestMapping("showCart")
@@ -120,7 +137,8 @@ public class CartController {
             return  "shopcart";
         }
         ResultBean resultBean = cartService.showCart(uuid);
-        model.addAttribute("cart",resultBean.getData());
+        List<ProductCartVO> data = (List<ProductCartVO>) resultBean.getData();
+        model.addAttribute("cart",data);
         return "shopcart";
     }
 

@@ -2,8 +2,16 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qf.mapper.product.ProductStoreMapper.">
+<mapper namespace="com.qf.mapper.product.ProductStoreMapper">
        <select id="insertStoreToRedis" resultType="com.qf.entity.TProductStore">
            select  *  from t_product_store;
        </select>
+
+        <update id="subtractStore" parameterType="com.qf.entity.TProductStore">
+            update t_product_store set pcount=#{pcount} where pid = #{pid};
+        </update>
+
+    <select id="selectStoreBySingle" resultType="com.qf.entity.TProductStore">
+        select * from t_product_store where pid = #{pid};
+    </select>
 </mapper>

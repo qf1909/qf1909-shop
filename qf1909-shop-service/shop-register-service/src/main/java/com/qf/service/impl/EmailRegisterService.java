@@ -46,6 +46,7 @@ public class EmailRegisterService implements IEmailRegisterService {
             rabbitTemplate.convertAndSend(RabbitConstant.EMAIL_TOPIC_EXCHANGE,"send-email",message);
             //2.将数据插入到数据库中
             TUser user = new TUser();
+            user.setUname(uuid);
             user.setEmail(email);
             user.setPassword(SpringSecurityUtil.getEncodePassword(password));
             registerMapper.insertRegisterUser(user);

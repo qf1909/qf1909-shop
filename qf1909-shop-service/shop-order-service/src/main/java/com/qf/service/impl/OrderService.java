@@ -14,7 +14,7 @@ public class OrderService implements IOrderService {
     private TOrderMapper tOrderMapper;
 
     @Override
-    public void createOrder(Order order) {
+    public Integer createOrder(Order order) {
         TOrder tOrder = new TOrder();
         tOrder.setStatus(order.getStatus());
         tOrder.setQuantity(order.getQuantity());
@@ -22,5 +22,6 @@ public class OrderService implements IOrderService {
         tOrder.setPaystatus(order.getPaystatus());
         tOrder.setOtherrequirement(order.getOtherRequirement());
         tOrderMapper.insertSelective(tOrder);
+        return tOrder.getId();
     }
 }

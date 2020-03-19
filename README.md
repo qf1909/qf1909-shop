@@ -30,12 +30,15 @@ shuwei-shop
  shop-register-email-service :8082
  shop-cart-service :8087
  shop-order-service :8088
+ shop-order-create-orderdetail-service :8089
+ shop-order-subtract-store-service :8090
  
  后台 web
 shop-index :9082
 shop-login :9083
 shop-search :9084
 shop-cart :9085
+shop-product :9086
 shop-order :9087
 
  

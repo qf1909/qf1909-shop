@@ -11,6 +11,8 @@ package com.qf.constant;
         String EMAIL_TOPIC_EXCHANGE = "email_topic_exchange";
         String EMAIL_SEND_QUEUE = "email_send_queue";
         String ORDER_ADD_TOPIC_EXCHANGE="order_add_topic_exchange";
+        String CREATE_ORDER_DETAIL_QUEUE = "create_order_detail_queue";
+        String SUBTRACT_STORE_QUEUE = "subtract_store_queue";
     }
 
 

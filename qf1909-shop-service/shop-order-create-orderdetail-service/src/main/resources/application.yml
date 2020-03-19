@@ -1,6 +1,6 @@
 spring:
   application:
-    name: shop-register-send-email-service
+    name: shop-order-create-orderdetail-service
   rabbitmq:
     virtual-host: qf1909
     port: 5672
@@ -14,13 +14,14 @@ spring:
   redis:
     cluster:
       nodes: 47.111.235.107:6379,47.111.235.107:6380,47.111.235.107:6381,47.111.235.107:6382,47.111.235.107:6383,47.111.235.107:6384
-  mail:
-    host: smtp.qq.com
-    username: 1004307154@qq.com
-    password: zvtvffflgqypbdhb
-    default-encoding: utf-8
+  datasource:
+    url: jdbc:mysql://47.105.34.102/qf-v6
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
 server:
-  port: 8082
+  port: 8089
 eureka:
   client:
     serviceUrl:
@@ -29,5 +30,3 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
-
-

@@ -1,7 +1,9 @@
+com\qf\dto\OrderDetailDTO.class
 com\qf\dto\ProductSearchDTO.class
 com\qf\vo\ProductCartVO.class
 com\qf\bean\CartInfo.class
 com\qf\bean\Orderdetail.class
+com\qf\dto\OrderDTO.class
 com\qf\vo\CartItemVO.class
 com\qf\bean\ResultBean.class
 com\qf\bean\Address.class

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qf.mapper.TOrderMapper">
-  <resultMap id="BaseResultMap" type="com.qf.pojo.TOrder">
+<mapper namespace="com.qf.mapper.order.TOrderMapper">
+  <resultMap id="BaseResultMap" type="com.qf.entity.TOrder">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="account" jdbcType="VARCHAR" property="account" />
     <result column="payType" jdbcType="INTEGER" property="paytype" />
@@ -28,84 +28,84 @@
     <result column="score" jdbcType="INTEGER" property="score" />
     <result column="amountExchangeScore" jdbcType="INTEGER" property="amountexchangescore" />
   </resultMap>
-  <sql id="Example_Where_Clause">
-    <where>
-      <foreach collection="oredCriteria" item="criteria" separator="or">
-        <if test="criteria.valid">
-          <trim prefix="(" prefixOverrides="and" suffix=")">
-            <foreach collection="criteria.criteria" item="criterion">
-              <choose>
-                <when test="criterion.noValue">
-                  and ${criterion.condition}
-                </when>
-                <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.value}
-                </when>
-                <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
-                </when>
-                <when test="criterion.listValue">
-                  and ${criterion.condition}
-                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
-                    #{listItem}
-                  </foreach>
-                </when>
-              </choose>
-            </foreach>
-          </trim>
-        </if>
-      </foreach>
-    </where>
-  </sql>
-  <sql id="Update_By_Example_Where_Clause">
-    <where>
-      <foreach collection="example.oredCriteria" item="criteria" separator="or">
-        <if test="criteria.valid">
-          <trim prefix="(" prefixOverrides="and" suffix=")">
-            <foreach collection="criteria.criteria" item="criterion">
-              <choose>
-                <when test="criterion.noValue">
-                  and ${criterion.condition}
-                </when>
-                <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.value}
-                </when>
-                <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
-                </when>
-                <when test="criterion.listValue">
-                  and ${criterion.condition}
-                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
-                    #{listItem}
-                  </foreach>
-                </when>
-              </choose>
-            </foreach>
-          </trim>
-        </if>
-      </foreach>
-    </where>
-  </sql>
+<!--  <sql id="Example_Where_Clause">-->
+<!--    <where>-->
+<!--      <foreach collection="oredCriteria" item="criteria" separator="or">-->
+<!--        <if test="criteria.valid">-->
+<!--          <trim prefix="(" prefixOverrides="and" suffix=")">-->
+<!--            <foreach collection="criteria.criteria" item="criterion">-->
+<!--              <choose>-->
+<!--                <when test="criterion.noValue">-->
+<!--                  and ${criterion.condition}-->
+<!--                </when>-->
+<!--                <when test="criterion.singleValue">-->
+<!--                  and ${criterion.condition} #{criterion.value}-->
+<!--                </when>-->
+<!--                <when test="criterion.betweenValue">-->
+<!--                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}-->
+<!--                </when>-->
+<!--                <when test="criterion.listValue">-->
+<!--                  and ${criterion.condition}-->
+<!--                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">-->
+<!--                    #{listItem}-->
+<!--                  </foreach>-->
+<!--                </when>-->
+<!--              </choose>-->
+<!--            </foreach>-->
+<!--          </trim>-->
+<!--        </if>-->
+<!--      </foreach>-->
+<!--    </where>-->
+<!--  </sql>-->
+<!--  <sql id="Update_By_Example_Where_Clause">-->
+<!--    <where>-->
+<!--      <foreach collection="example.oredCriteria" item="criteria" separator="or">-->
+<!--        <if test="criteria.valid">-->
+<!--          <trim prefix="(" prefixOverrides="and" suffix=")">-->
+<!--            <foreach collection="criteria.criteria" item="criterion">-->
+<!--              <choose>-->
+<!--                <when test="criterion.noValue">-->
+<!--                  and ${criterion.condition}-->
+<!--                </when>-->
+<!--                <when test="criterion.singleValue">-->
+<!--                  and ${criterion.condition} #{criterion.value}-->
+<!--                </when>-->
+<!--                <when test="criterion.betweenValue">-->
+<!--                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}-->
+<!--                </when>-->
+<!--                <when test="criterion.listValue">-->
+<!--                  and ${criterion.condition}-->
+<!--                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">-->
+<!--                    #{listItem}-->
+<!--                  </foreach>-->
+<!--                </when>-->
+<!--              </choose>-->
+<!--            </foreach>-->
+<!--          </trim>-->
+<!--        </if>-->
+<!--      </foreach>-->
+<!--    </where>-->
+<!--  </sql>-->
   <sql id="Base_Column_List">
     id, account, payType, carry, rebate, createdate, status, refundStatus, amount, fee, 
     ptotal, quantity, paystatus, updateAmount, expressCode, expressName, otherRequirement, 
     remark, expressNo, expressCompanyName, lowStocks, confirmSendProductRemark, closedComment, 
     score, amountExchangeScore
   </sql>
-  <select id="selectByExample" parameterType="com.qf.pojo.TOrderExample" resultMap="BaseResultMap">
-    select
-    <if test="distinct">
-      distinct
-    </if>
-    <include refid="Base_Column_List" />
-    from t_order
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-    <if test="orderByClause != null">
-      order by ${orderByClause}
-    </if>
-  </select>
+<!--  <select id="selectByExample" parameterType="com.qf.entity.TOrderExample" resultMap="BaseResultMap">-->
+<!--    select-->
+<!--    <if test="distinct">-->
+<!--      distinct-->
+<!--    </if>-->
+<!--    <include refid="Base_Column_List" />-->
+<!--    from t_order-->
+<!--    <if test="_parameter != null">-->
+<!--      <include refid="Example_Where_Clause" />-->
+<!--    </if>-->
+<!--    <if test="orderByClause != null">-->
+<!--      order by ${orderByClause}-->
+<!--    </if>-->
+<!--  </select>-->
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
@@ -116,13 +116,13 @@
     delete from t_order
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.qf.pojo.TOrderExample">
-    delete from t_order
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-  </delete>
-  <insert id="insert" parameterType="com.qf.pojo.TOrder">
+<!--  <delete id="deleteByExample" parameterType="com.qf.entity.TOrderExample">-->
+<!--    delete from t_order-->
+<!--    <if test="_parameter != null">-->
+<!--      <include refid="Example_Where_Clause" />-->
+<!--    </if>-->
+<!--  </delete>-->
+  <insert id="insert" parameterType="com.qf.entity.TOrder">
     insert into t_order (id, account, payType, 
       carry, rebate, createdate, 
       status, refundStatus, amount, 
@@ -142,7 +142,7 @@
       #{confirmsendproductremark,jdbcType=VARCHAR}, #{closedcomment,jdbcType=VARCHAR}, 
       #{score,jdbcType=INTEGER}, #{amountexchangescore,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.qf.pojo.TOrder">
+  <insert id="insertSelective" parameterType="com.qf.entity.TOrder" useGeneratedKeys="true" keyProperty="id">
     insert into t_order
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -299,127 +299,127 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.qf.pojo.TOrderExample" resultType="java.lang.Long">
-    select count(*) from t_order
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-  </select>
-  <update id="updateByExampleSelective" parameterType="map">
-    update t_order
-    <set>
-      <if test="record.id != null">
-        id = #{record.id,jdbcType=INTEGER},
-      </if>
-      <if test="record.account != null">
-        account = #{record.account,jdbcType=VARCHAR},
-      </if>
-      <if test="record.paytype != null">
-        payType = #{record.paytype,jdbcType=INTEGER},
-      </if>
-      <if test="record.carry != null">
-        carry = #{record.carry,jdbcType=INTEGER},
-      </if>
-      <if test="record.rebate != null">
-        rebate = #{record.rebate,jdbcType=DECIMAL},
-      </if>
-      <if test="record.createdate != null">
-        createdate = #{record.createdate,jdbcType=TIMESTAMP},
-      </if>
-      <if test="record.status != null">
-        status = #{record.status,jdbcType=VARCHAR},
-      </if>
-      <if test="record.refundstatus != null">
-        refundStatus = #{record.refundstatus,jdbcType=VARCHAR},
-      </if>
-      <if test="record.amount != null">
-        amount = #{record.amount,jdbcType=DECIMAL},
-      </if>
-      <if test="record.fee != null">
-        fee = #{record.fee,jdbcType=DECIMAL},
-      </if>
-      <if test="record.ptotal != null">
-        ptotal = #{record.ptotal,jdbcType=DECIMAL},
-      </if>
-      <if test="record.quantity != null">
-        quantity = #{record.quantity,jdbcType=INTEGER},
-      </if>
-      <if test="record.paystatus != null">
-        paystatus = #{record.paystatus,jdbcType=VARCHAR},
-      </if>
-      <if test="record.updateamount != null">
-        updateAmount = #{record.updateamount,jdbcType=VARCHAR},
-      </if>
-      <if test="record.expresscode != null">
-        expressCode = #{record.expresscode,jdbcType=VARCHAR},
-      </if>
-      <if test="record.expressname != null">
-        expressName = #{record.expressname,jdbcType=VARCHAR},
-      </if>
-      <if test="record.otherrequirement != null">
-        otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},
-      </if>
-      <if test="record.remark != null">
-        remark = #{record.remark,jdbcType=VARCHAR},
-      </if>
-      <if test="record.expressno != null">
-        expressNo = #{record.expressno,jdbcType=VARCHAR},
-      </if>
-      <if test="record.expresscompanyname != null">
-        expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},
-      </if>
-      <if test="record.lowstocks != null">
-        lowStocks = #{record.lowstocks,jdbcType=VARCHAR},
-      </if>
-      <if test="record.confirmsendproductremark != null">
-        confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},
-      </if>
-      <if test="record.closedcomment != null">
-        closedComment = #{record.closedcomment,jdbcType=VARCHAR},
-      </if>
-      <if test="record.score != null">
-        score = #{record.score,jdbcType=INTEGER},
-      </if>
-      <if test="record.amountexchangescore != null">
-        amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER},
-      </if>
-    </set>
-    <if test="_parameter != null">
-      <include refid="Update_By_Example_Where_Clause" />
-    </if>
-  </update>
-  <update id="updateByExample" parameterType="map">
-    update t_order
-    set id = #{record.id,jdbcType=INTEGER},
-      account = #{record.account,jdbcType=VARCHAR},
-      payType = #{record.paytype,jdbcType=INTEGER},
-      carry = #{record.carry,jdbcType=INTEGER},
-      rebate = #{record.rebate,jdbcType=DECIMAL},
-      createdate = #{record.createdate,jdbcType=TIMESTAMP},
-      status = #{record.status,jdbcType=VARCHAR},
-      refundStatus = #{record.refundstatus,jdbcType=VARCHAR},
-      amount = #{record.amount,jdbcType=DECIMAL},
-      fee = #{record.fee,jdbcType=DECIMAL},
-      ptotal = #{record.ptotal,jdbcType=DECIMAL},
-      quantity = #{record.quantity,jdbcType=INTEGER},
-      paystatus = #{record.paystatus,jdbcType=VARCHAR},
-      updateAmount = #{record.updateamount,jdbcType=VARCHAR},
-      expressCode = #{record.expresscode,jdbcType=VARCHAR},
-      expressName = #{record.expressname,jdbcType=VARCHAR},
-      otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},
-      remark = #{record.remark,jdbcType=VARCHAR},
-      expressNo = #{record.expressno,jdbcType=VARCHAR},
-      expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},
-      lowStocks = #{record.lowstocks,jdbcType=VARCHAR},
-      confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},
-      closedComment = #{record.closedcomment,jdbcType=VARCHAR},
-      score = #{record.score,jdbcType=INTEGER},
-      amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER}
-    <if test="_parameter != null">
-      <include refid="Update_By_Example_Where_Clause" />
-    </if>
-  </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.qf.pojo.TOrder">
+<!--  <select id="countByExample" parameterType="com.qf.entity.TOrderExample" resultType="java.lang.Long">-->
+<!--    select count(*) from t_order-->
+<!--    <if test="_parameter != null">-->
+<!--      <include refid="Example_Where_Clause" />-->
+<!--    </if>-->
+<!--  </select>-->
+<!--  <update id="updateByExampleSelective" parameterType="map">-->
+<!--    update t_order-->
+<!--    <set>-->
+<!--      <if test="record.id != null">-->
+<!--        id = #{record.id,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--      <if test="record.account != null">-->
+<!--        account = #{record.account,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.paytype != null">-->
+<!--        payType = #{record.paytype,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--      <if test="record.carry != null">-->
+<!--        carry = #{record.carry,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--      <if test="record.rebate != null">-->
+<!--        rebate = #{record.rebate,jdbcType=DECIMAL},-->
+<!--      </if>-->
+<!--      <if test="record.createdate != null">-->
+<!--        createdate = #{record.createdate,jdbcType=TIMESTAMP},-->
+<!--      </if>-->
+<!--      <if test="record.status != null">-->
+<!--        status = #{record.status,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.refundstatus != null">-->
+<!--        refundStatus = #{record.refundstatus,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.amount != null">-->
+<!--        amount = #{record.amount,jdbcType=DECIMAL},-->
+<!--      </if>-->
+<!--      <if test="record.fee != null">-->
+<!--        fee = #{record.fee,jdbcType=DECIMAL},-->
+<!--      </if>-->
+<!--      <if test="record.ptotal != null">-->
+<!--        ptotal = #{record.ptotal,jdbcType=DECIMAL},-->
+<!--      </if>-->
+<!--      <if test="record.quantity != null">-->
+<!--        quantity = #{record.quantity,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--      <if test="record.paystatus != null">-->
+<!--        paystatus = #{record.paystatus,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.updateamount != null">-->
+<!--        updateAmount = #{record.updateamount,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.expresscode != null">-->
+<!--        expressCode = #{record.expresscode,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.expressname != null">-->
+<!--        expressName = #{record.expressname,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.otherrequirement != null">-->
+<!--        otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.remark != null">-->
+<!--        remark = #{record.remark,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.expressno != null">-->
+<!--        expressNo = #{record.expressno,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.expresscompanyname != null">-->
+<!--        expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.lowstocks != null">-->
+<!--        lowStocks = #{record.lowstocks,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.confirmsendproductremark != null">-->
+<!--        confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.closedcomment != null">-->
+<!--        closedComment = #{record.closedcomment,jdbcType=VARCHAR},-->
+<!--      </if>-->
+<!--      <if test="record.score != null">-->
+<!--        score = #{record.score,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--      <if test="record.amountexchangescore != null">-->
+<!--        amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER},-->
+<!--      </if>-->
+<!--    </set>-->
+<!--    <if test="_parameter != null">-->
+<!--      <include refid="Update_By_Example_Where_Clause" />-->
+<!--    </if>-->
+<!--  </update>-->
+<!--  <update id="updateByExample" parameterType="map">-->
+<!--    update t_order-->
+<!--    set id = #{record.id,jdbcType=INTEGER},-->
+<!--      account = #{record.account,jdbcType=VARCHAR},-->
+<!--      payType = #{record.paytype,jdbcType=INTEGER},-->
+<!--      carry = #{record.carry,jdbcType=INTEGER},-->
+<!--      rebate = #{record.rebate,jdbcType=DECIMAL},-->
+<!--      createdate = #{record.createdate,jdbcType=TIMESTAMP},-->
+<!--      status = #{record.status,jdbcType=VARCHAR},-->
+<!--      refundStatus = #{record.refundstatus,jdbcType=VARCHAR},-->
+<!--      amount = #{record.amount,jdbcType=DECIMAL},-->
+<!--      fee = #{record.fee,jdbcType=DECIMAL},-->
+<!--      ptotal = #{record.ptotal,jdbcType=DECIMAL},-->
+<!--      quantity = #{record.quantity,jdbcType=INTEGER},-->
+<!--      paystatus = #{record.paystatus,jdbcType=VARCHAR},-->
+<!--      updateAmount = #{record.updateamount,jdbcType=VARCHAR},-->
+<!--      expressCode = #{record.expresscode,jdbcType=VARCHAR},-->
+<!--      expressName = #{record.expressname,jdbcType=VARCHAR},-->
+<!--      otherRequirement = #{record.otherrequirement,jdbcType=VARCHAR},-->
+<!--      remark = #{record.remark,jdbcType=VARCHAR},-->
+<!--      expressNo = #{record.expressno,jdbcType=VARCHAR},-->
+<!--      expressCompanyName = #{record.expresscompanyname,jdbcType=VARCHAR},-->
+<!--      lowStocks = #{record.lowstocks,jdbcType=VARCHAR},-->
+<!--      confirmSendProductRemark = #{record.confirmsendproductremark,jdbcType=VARCHAR},-->
+<!--      closedComment = #{record.closedcomment,jdbcType=VARCHAR},-->
+<!--      score = #{record.score,jdbcType=INTEGER},-->
+<!--      amountExchangeScore = #{record.amountexchangescore,jdbcType=INTEGER}-->
+<!--    <if test="_parameter != null">-->
+<!--      <include refid="Update_By_Example_Where_Clause" />-->
+<!--    </if>-->
+<!--  </update>-->
+  <update id="updateByPrimaryKeySelective" parameterType="com.qf.entity.TOrder">
     update t_order
     <set>
       <if test="account != null">
@@ -497,7 +497,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.qf.pojo.TOrder">
+  <update id="updateByPrimaryKey" parameterType="com.qf.entity.TOrder">
     update t_order
     set account = #{account,jdbcType=VARCHAR},
       payType = #{paytype,jdbcType=INTEGER},

@@ -24,7 +24,7 @@ public class EmailHandler {
     private TemplateEngine engine;
 
     @RabbitListener(queues = RabbitConstant.EMAIL_SEND_QUEUE)
-    public ResultBean sendEmail(EmailMessageDTO message){
+    public void sendEmail(EmailMessageDTO message){
         try {
             MimeMessage mimeMessage = sender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage,true);
@@ -41,6 +41,5 @@ public class EmailHandler {
         } catch (MessagingException e) {
             e.printStackTrace();
         }
-        return ResultBean.success();
     }
 }

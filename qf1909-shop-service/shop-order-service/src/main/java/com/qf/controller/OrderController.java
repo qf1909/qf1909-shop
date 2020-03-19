@@ -4,6 +4,8 @@ import com.qf.bean.Order;
 import com.qf.bean.Orderdetail;
 import com.qf.bean.ResultBean;
 import com.qf.constant.RabbitConstant;
+import com.qf.dto.OrderDTO;
+import com.qf.dto.OrderDetailDTO;
 import com.qf.service.IOrderService;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +28,14 @@ public class OrderController {
 
     @RequestMapping("createOrder")
     @ResponseBody
-    public ResultBean createOrder(@RequestBody Order order, @RequestBody List<Orderdetail> orderdetailList){
+    public ResultBean createOrder(@RequestBody OrderDTO orderDTO){
+        Order order = orderDTO.getOrder();
+        List<Orderdetail> orderdetailList = orderDTO.getOrderdetailList();
         //插入订单数据
-        orderService.createOrder(order);
+        Integer orderId = orderService.createOrder(order);
+        OrderDetailDTO orderDetailDTO = new OrderDetailDTO(orderId, orderdetailList);
         //TODO  rabbitmq  发消息插入订单详情数据
-        rabbitTemplate.convertAndSend(RabbitConstant.ORDER_ADD_TOPIC_EXCHANGE,"create-order-detail",orderdetailList);
+        rabbitTemplate.convertAndSend(RabbitConstant.ORDER_ADD_TOPIC_EXCHANGE,"create-order-detail",orderDetailDTO);
         //TODO rabbitmq  发消息减库存
         rabbitTemplate.convertAndSend(RabbitConstant.ORDER_ADD_TOPIC_EXCHANGE,"subtract-store",orderdetailList);
         return ResultBean.success("创建订单成功!");

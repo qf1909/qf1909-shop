@@ -1,6 +1,7 @@
 package com.qf.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.qf.dto.OrderDTO;
 import com.qf.service.OrderService;
 import com.qf.bean.Order;
 import com.qf.bean.Orderdetail;
@@ -19,6 +20,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -49,6 +51,7 @@ public class OrderController {
     }
 //提交订单
         @RequestMapping("submitOrder")
+        @ResponseBody
         public String submitOrder(HttpServletRequest request){
             Object user = request.getAttribute("user");
             return  createOrder(user);
@@ -106,8 +109,9 @@ public class OrderController {
             orderdetail.setTotal0(String.valueOf(Double.valueOf(orderdetail.getPrice()) * orderdetail.getNumber()));//订单项小计
             orderdetailList.add(orderdetail);
         }
-        //TODO 创建订单并插入到数据库,减库存，使用mq的分布式事务解决方案
-        ResultBean resultBean = orderService.createOrder(order,orderdetailList);
+        // 创建订单并插入到数据库,减库存，使用mq的分布式事务解决方案
+        OrderDTO orderDTO = new OrderDTO(order,orderdetailList);
+        ResultBean resultBean = orderService.createOrder(orderDTO);
         String redisKey1 = StringUtil.getRedisKey(RedisConstant.USER_CART_PRE, id);
         //清空购物车
         redisTemplate.delete(redisKey1);
@@ -125,7 +129,7 @@ public class OrderController {
 //            }
 //        }
         //重定向支付页面
-        return "redirect:/paygate/pay?orderId={1}&orderPayId={2}";
+        return "跳转到支付页面";
     }
 }
 

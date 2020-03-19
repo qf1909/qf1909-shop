@@ -29,6 +29,7 @@ public class PhoneRegisterService implements IPhoneRegisterService {
         if (redisCode.equals(code)){
             //注册信息插入数据库
             TUser user = new TUser();
+            user.setUname(code);
             user.setPassword(SpringSecurityUtil.getEncodePassword(password));
             user.setPhone(phone);
             user.setFlag(1);
