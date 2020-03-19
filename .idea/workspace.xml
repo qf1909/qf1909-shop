@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="">
+    <list default="true" id="4e258b35-b288-45b4-8360-0c2ee79ba52c" name="Default Changelist" comment="shop search service  3-11">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -122,20 +120,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-mapper\src\main\java\com\qf\mapper\user" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qf.interceptor" />
-      <recent name="com.qf.service" />
-      <recent name="com.qf.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-mapper\src\main\java\com\qf\mapper\order" />
       <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-entity\src\main\java\com\qf\entity" />
       <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-basic\src\main\java\com\qf\bean" />
       <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\static" />
       <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-web\shop-order\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qf.interceptor" />
+      <recent name="com.qf.service" />
+      <recent name="com.qf.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\qf1909-shop\qf1909-shop-common\shop-mapper\src\main\java\com\qf\mapper\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,6 +157,27 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOrderAddOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-order-add-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductOrderAddOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOrderAddOrderdetailServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-order-add-orderdetail-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductOrderAddOrderdetailServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOrderReduceRepertoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-order-reduce-repertory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ProductOrderReduceRepertoryServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,6 +227,13 @@
     <configuration name="ShopOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shop-order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopOrderSubtractStoreServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-order-subtract-store-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.ShopOrderSubtractStoreServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -295,6 +321,10 @@
       <item itemvalue="Spring Boot.ShopCartServiceApplication" />
       <item itemvalue="Spring Boot.ShopOrderServiceApplication" />
       <item itemvalue="Spring Boot.ShopOrderCreateOrderdetailServiceApplication" />
+      <item itemvalue="Spring Boot.ShopOrderSubtractStoreServiceApplication" />
+      <item itemvalue="Spring Boot.ProductOrderAddOrderServiceApplication" />
+      <item itemvalue="Spring Boot.ProductOrderAddOrderdetailServiceApplication" />
+      <item itemvalue="Spring Boot.ProductOrderReduceRepertoryServiceApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -353,6 +383,8 @@
       <workItem from="1584354515258" duration="11998000" />
       <workItem from="1584417725809" duration="28664000" />
       <workItem from="1584499634329" duration="38388000" />
+      <workItem from="1584586412989" duration="638000" />
+      <workItem from="1584588626205" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="first construction">
       <created>1583744393643</created>

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf1909-shop-service/product-order-add-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf1909-shop-service/product-order-add-orderdetail-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf1909-shop-service/product-order-reduce-repertory-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-cart-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-order-create-orderdetail-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qf1909-shop-service/shop-order-service" charset="UTF-8" />

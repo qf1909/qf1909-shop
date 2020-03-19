@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/product-order-add-order-service/product-order-add-order-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/product-order-add-order-service/product-order-add-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/product-order-add-orderdetail-service/product-order-add-orderdetail-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/product-order-add-orderdetail-service/product-order-add-orderdetail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/product-order-reduce-repertory-service/product-order-reduce-repertory-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/product-order-reduce-repertory-service/product-order-reduce-repertory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/qf1909-shop.iml" filepath="$PROJECT_DIR$/.idea/qf1909-shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/qf1909-shop-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/qf1909-shop-server.iml" />
@@ -28,7 +31,6 @@
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" filepath="$PROJECT_DIR$/qf1909-shop-web/shop-search/shop-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/shop-search-service/shop-search-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/shop-search-service/shop-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/shop-user-service/shop-user-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/shop-user-service/shop-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/user-provider/user-provider.iml" />
     </modules>
   </component>
 </project>

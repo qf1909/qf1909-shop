@@ -8,26 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="shop-user-service" />
         <module name="shop-search-service" />
+        <module name="shop-register-service" />
         <module name="shop-pay" />
         <module name="qf1909-shop-server" />
         <module name="shop-search" />
         <module name="shop-order" />
         <module name="shop-entity" />
-        <module name="qf1909-shop-service" />
+        <module name="shop-order-subtract-store-service" />
         <module name="shop-product-service" />
-        <module name="user-provider" />
+        <module name="product-order-add-order-service" />
         <module name="shop-register-send-email-service" />
+        <module name="product-order-add-orderdetail-service" />
         <module name="shop-product" />
         <module name="shop-mapper" />
-        <module name="shop-order-subtract-store-service" />
-        <module name="shop-cart" />
+        <module name="shop-cart-service" />
         <module name="qf1909-shop-web" />
         <module name="eureka-server" />
         <module name="shop-login" />
-        <module name="shop-cart-service" />
+        <module name="shop-cart" />
         <module name="shop-register-send-code-service" />
-        <module name="shop-register-service" />
+        <module name="qf1909-shop-service" />
         <module name="shop-order-service" />
+        <module name="product-order-reduce-repertory-service" />
         <module name="shop-basic" />
         <module name="shop-index" />
         <module name="shop-order-create-orderdetail-service" />
@@ -35,6 +37,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="product-order-add-order-service" target="1.8" />
+      <module name="product-order-add-orderdetail-service" target="1.8" />
+      <module name="product-order-reduce-repertory-service" target="1.8" />
       <module name="qf1909-shop-common" target="1.5" />
       <module name="qf1909-shop-server" target="1.5" />
       <module name="qf1909-shop-service" target="1.5" />
@@ -65,6 +70,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="product-order-add-order-service" options="-parameters" />
+      <module name="product-order-add-orderdetail-service" options="-parameters" />
+      <module name="product-order-reduce-repertory-service" options="-parameters" />
       <module name="shop-cart" options="-parameters" />
       <module name="shop-cart-service" options="-parameters" />
       <module name="shop-index" options="-parameters" />
@@ -72,6 +80,7 @@
       <module name="shop-order" options="-parameters" />
       <module name="shop-order-create-orderdetail-service" options="-parameters" />
       <module name="shop-order-service" options="-parameters" />
+      <module name="shop-order-subtract-store-service" options="-parameters" />
       <module name="shop-pay" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-product-service" options="-parameters" />
