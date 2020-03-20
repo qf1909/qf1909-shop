@@ -1,0 +1,11 @@
+server:
+  port: 9085
+
+spring:
+  application:
+    name: product-order-web
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

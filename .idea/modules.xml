@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/qf1909-shop-server/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/order-rabbitmq-consumer/order-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/order-rabbitmq-consumer/order-rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/order-service/order-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/order-service/order-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-service/pay-service/pay-service.iml" filepath="$PROJECT_DIR$/qf1909-shop-service/pay-service/pay-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/qf1909-shop.iml" filepath="$PROJECT_DIR$/.idea/qf1909-shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" filepath="$PROJECT_DIR$/qf1909-shop-common/qf1909-shop-common.iml" />
