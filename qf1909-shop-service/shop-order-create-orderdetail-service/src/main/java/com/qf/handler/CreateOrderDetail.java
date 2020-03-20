@@ -2,7 +2,6 @@ package com.qf.handler;
 
 
 import com.qf.bean.Orderdetail;
-import com.qf.bean.ResultBean;
 import com.qf.constant.RabbitConstant;
 import com.qf.dto.OrderDetailDTO;
 import com.qf.entity.TOrderdetail;
