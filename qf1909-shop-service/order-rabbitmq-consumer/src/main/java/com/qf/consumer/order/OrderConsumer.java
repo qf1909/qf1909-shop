@@ -27,9 +27,11 @@ public class OrderConsumer {
         }
         TOrder order = (TOrder) list.get(1);
         TOrderdetail orderdetail = (TOrderdetail) list.get(2);
+        //创建订单
         orderMapper.createOrder(order);
+        //订单详情
         orderdetailMapper.creatOrderDetail(orderdetail);
-
+        //TODO 扣减库存，更新redis
         return "订单创建完成";
     }
 
